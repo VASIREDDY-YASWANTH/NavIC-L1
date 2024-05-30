@@ -1,0 +1,88 @@
+/home/yaswanth/Desktop/navicL1/myworks/verilog/fptest2.sv {1 {vlog -work work -sv -stats=none /home/yaswanth/Desktop/navicL1/myworks/verilog/fptest2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testing2
+
+Top level modules:
+	testing2
+
+} {} {}} /home/yaswanth/Desktop/navicL1/myworks/verilog/arr_test(4).sv {1 {vlog -work work -sv -stats=none /home/yaswanth/Desktop/navicL1/myworks/verilog/arr_test(4).sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module arr
+
+Top level modules:
+	arr
+
+} {} {}} /home/yaswanth/Desktop/navicL1/myworks/verilog/arr_test(5).sv {1 {vlog -work work -sv -stats=none /home/yaswanth/Desktop/navicL1/myworks/verilog/arr_test(5).sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module arr
+
+Top level modules:
+	arr
+
+} {} {}} /home/yaswanth/Desktop/navicL1/myworks/verilog/func_cord.sv {2 {vlog -work work -sv -stats=none /home/yaswanth/Desktop/navicL1/myworks/verilog/func_cord.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module func_CORD
+** Warning: /home/yaswanth/Desktop/navicL1/myworks/verilog/func_cord.sv(59): (vlog-2240) Treating stand-alone use of function 'cord' as an implicit VOID cast.
+** Warning: /home/yaswanth/Desktop/navicL1/myworks/verilog/func_cord.sv(17): (vlog-2250) Function "cord" has no return value assignment.
+
+Top level modules:
+	func_CORD
+
+} {} {}} /home/yaswanth/Desktop/navicL1/myworks/verilog/func_fft.sv {2 {vlog -work work -sv -stats=none /home/yaswanth/Desktop/navicL1/myworks/verilog/func_fft.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module func_fft
+** Warning: /home/yaswanth/Desktop/navicL1/myworks/verilog/func_fft.sv(84): (vlog-2240) Treating stand-alone use of function 'fft' as an implicit VOID cast.
+** Warning: /home/yaswanth/Desktop/navicL1/myworks/verilog/func_fft.sv(34): (vlog-2250) Function "fft" has no return value assignment.
+
+Top level modules:
+	func_fft
+
+} {} {}} /home/yaswanth/Desktop/navicL1/myworks/verilog/fptest.sv {1 {vlog -work work -sv -stats=none /home/yaswanth/Desktop/navicL1/myworks/verilog/fptest.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testing
+
+Top level modules:
+	testing
+
+} {} {}} /home/yaswanth/Desktop/navicL1/myworks/verilog/fixp.sv {1 {vlog -work work -sv -stats=none /home/yaswanth/Desktop/navicL1/myworks/verilog/fixp.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fix_Air
+
+Top level modules:
+	fix_Air
+
+} {} {}} /home/yaswanth/Desktop/navicL1/myworks/verilog/CORD.sv {1 {vlog -work work -sv -stats=none /home/yaswanth/Desktop/navicL1/myworks/verilog/CORD.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module CORDIC
+
+Top level modules:
+	CORDIC
+
+} {} {}} /home/yaswanth/Desktop/navicL1/myworks/verilog/final_fft.sv {2 {vlog -work work -sv -stats=none /home/yaswanth/Desktop/navicL1/myworks/verilog/final_fft.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module final_fft
+** Warning: /home/yaswanth/Desktop/navicL1/myworks/verilog/final_fft.sv(76): (vlog-2240) Treating stand-alone use of function 'cord' as an implicit VOID cast.
+** Warning: /home/yaswanth/Desktop/navicL1/myworks/verilog/final_fft.sv(86): (vlog-2240) Treating stand-alone use of function 'cord' as an implicit VOID cast.
+** Warning: /home/yaswanth/Desktop/navicL1/myworks/verilog/final_fft.sv(132): (vlog-2240) Treating stand-alone use of function 'cord' as an implicit VOID cast.
+** Warning: /home/yaswanth/Desktop/navicL1/myworks/verilog/final_fft.sv(137): (vlog-2240) Treating stand-alone use of function 'fft' as an implicit VOID cast.
+** Warning: /home/yaswanth/Desktop/navicL1/myworks/verilog/final_fft.sv(21): (vlog-2250) Function "cord" has no return value assignment.
+** Warning: /home/yaswanth/Desktop/navicL1/myworks/verilog/final_fft.sv(62): (vlog-2250) Function "fft" has no return value assignment.
+
+Top level modules:
+	final_fft
+
+} {} {}} /home/yaswanth/Desktop/navicL1/myworks/verilog/fft2.sv {1 {vlog -work work -sv -stats=none /home/yaswanth/Desktop/navicL1/myworks/verilog/fft2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module fft
+
+Top level modules:
+	fft
+
+} {} {}} /home/yaswanth/Desktop/navicL1/myworks/verilog/CORsine.sv {1 {vlog -work work -sv -stats=none /home/yaswanth/Desktop/navicL1/myworks/verilog/CORsine.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module CORDsine
+
+Top level modules:
+	CORDsine
+
+} {} {}}

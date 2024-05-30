@@ -1,0 +1,3047 @@
+# Loading project NavIC
+# Compile of fptest2.sv was successful.
+vsim work.testing2
+# vsim work.testing2 
+# Start time: 10:05:40 on May 22,2024
+# Loading sv_std.std
+# Loading work.testing2
+run
+# f[0] = -1.000000 +  0.000000 j 
+# 
+# f[1] = -1.000000 +  0.000000 j 
+# 
+# f[2] = -1.000000 +  0.000000 j 
+# 
+# f[3] = -1.000000 +  0.000000 j 
+# 
+# f[4] = -1.000000 +  0.000000 j 
+# 
+# f[5] = -1.000000 +  0.000000 j 
+# 
+# f[6] = 1.000000 +  0.000000 j 
+# 
+# f[7] = 1.000000 +  0.000000 j 
+# 
+# f[8] = 1.000000 +  0.000000 j 
+# 
+# f[9] = 1.000000 +  0.000000 j 
+# 
+# f[10] = 1.000000 +  0.000000 j 
+# 
+# f[11] = 1.000000 +  0.000000 j 
+# 
+# f[12] = 1.000000 +  0.000000 j 
+# 
+# f[13] = 1.000000 +  0.000000 j 
+# 
+# f[14] = 1.000000 +  0.000000 j 
+# 
+# f[15] = 1.000000 +  0.000000 j 
+# 
+# f[0] = -1.000000 +  0.000000 j 
+# 
+# f[1] = 1.000000 +  0.000000 j 
+# 
+# f[2] = -1.000000 +  0.000000 j 
+# 
+# f[3] = 1.000000 +  0.000000 j 
+# 
+# f[4] = -1.000000 +  0.000000 j 
+# 
+# f[5] = 1.000000 +  0.000000 j 
+# 
+# f[6] = 1.000000 +  0.000000 j 
+# 
+# f[7] = 1.000000 +  0.000000 j 
+# 
+# f[8] = -1.000000 +  0.000000 j 
+# 
+# f[9] = 1.000000 +  0.000000 j 
+# 
+# f[10] = -1.000000 +  0.000000 j 
+# 
+# f[11] = 1.000000 +  0.000000 j 
+# 
+# f[12] = -1.000000 +  0.000000 j 
+# 
+# f[13] = 1.000000 +  0.000000 j 
+# 
+# f[14] = 1.000000 +  0.000000 j 
+# 
+# f[15] = 1.000000 +  0.000000 j 
+# 
+# printing twiddle factors...
+# f[0] = 1.000000 +  0.000000 j 
+# 
+# f[1] = 0.921875 +  -0.382812 j 
+# 
+# f[2] = 0.707031 +  -0.710938 j 
+# 
+# f[3] = 0.378906 +  -0.925781 j 
+# 
+# f[4] = 0.000000 +  -1.000000 j 
+# 
+# f[5] = -0.382812 +  -0.925781 j 
+# 
+# f[6] = -0.710938 +  -0.710938 j 
+# 
+# f[7] = -0.925781 +  -0.382812 j 
+# 
+# Printing the FFT of input Array...
+# 
+# a[0] = -1.00000 + i 0.00000
+# a[1] = -1.08594 + i 1.63281
+# a[2] = -0.70703 + i 0.71094
+# a[3] = 0.25781 + i 1.24219
+# a[4] = -1.00000 + i 0.00000
+# a[5] = -1.45703 + i -0.24609
+# a[6] = -0.28906 + i 0.71094
+# a[7] = -1.39844 + i 0.59766
+# a[8] = -1.00000 + i 0.00000
+# a[9] = -0.32812 + i -0.21094
+# a[10] = -1.29297 + i -0.71094
+# a[11] = -0.83594 + i 0.17969
+# a[12] = -1.00000 + i 0.00000
+# a[13] = -1.12891 + i -1.17578
+# a[14] = -1.71094 + i -0.71094
+# a[15] = -2.02344 + i -2.01953
+# Compile of fft2.sv was successful.
+vsim work.fft
+# End time: 10:07:21 on May 22,2024, Elapsed time: 0:01:41
+# Errors: 0, Warnings: 3
+# vsim work.fft 
+# Start time: 10:07:21 on May 22,2024
+# Loading sv_std.std
+# Loading work.fft
+run
+# Printing the FFT of input Array...
+# 
+# a[0] = -2.00000 + i 0.00000
+# a[1] = -9.87413 + i -5.52866
+# a[2] = -13.13707 + i 4.61313
+# a[3] = 5.14699 + i -5.56932
+# a[4] = 4.82843 + i 6.82843
+# a[5] = 0.40189 + i -1.72130
+# a[6] = -1.61991 + i -0.91761
+# a[7] = -1.40601 + i -1.49754
+# a[8] = -2.00000 + i 0.00000
+# a[9] = 3.80383 + i 0.90028
+# a[10] = -0.72323 + i 3.08239
+# a[11] = 0.26175 + i -2.38494
+# a[12] = -0.82843 + i -1.17157
+# a[13] = -0.15378 + i -0.57611
+# a[14] = -0.51978 + i 0.61313
+# a[15] = 1.81945 + i 2.52602
+# a[16] = -2.00000 + i 0.00000
+# a[17] = 1.81945 + i -2.52602
+# a[18] = -0.51978 + i -0.61313
+# a[19] = -0.15378 + i 0.57611
+# a[20] = -0.82843 + i 1.17157
+# a[21] = 0.26175 + i 2.38494
+# a[22] = -0.72323 + i -3.08239
+# a[23] = 3.80383 + i -0.90028
+# a[24] = -2.00000 + i 0.00000
+# a[25] = -1.40601 + i 1.49754
+# a[26] = -1.61991 + i 0.91761
+# a[27] = 0.40189 + i 1.72130
+# a[28] = 4.82843 + i -6.82843
+# a[29] = 5.14699 + i 5.56932
+# a[30] = -13.13707 + i -4.61313
+# a[31] = -9.87413 + i 5.52866
+# Compile of func_fft.sv failed with 1 errors.
+# Compile of func_fft.sv failed with 20 errors.
+# Compile of func_fft.sv failed with 6 errors.
+# Compile of func_fft.sv failed with 4 errors.
+# Compile of func_fft.sv failed with 4 errors.
+# Compile of func_fft.sv failed with 20 errors.
+# Compile of func_fft.sv was successful with warnings.
+# Compile of func_fft.sv failed with 1 errors.
+# Compile of func_fft.sv was successful with warnings.
+# Load canceled
+# Compile of func_fft.sv was successful with warnings.
+vsim work.func_fft
+# End time: 10:23:12 on May 22,2024, Elapsed time: 0:15:51
+# Errors: 0, Warnings: 12
+# vsim work.func_fft 
+# Start time: 10:23:12 on May 22,2024
+# Loading sv_std.std
+# Loading work.func_fft
+run
+# Printing the FFT of input Array...
+# 
+# a[0] = -1.00000 + i 0.00000
+# a[1] = -1.00000 + i 0.00000
+# a[2] = -1.00000 + i 0.00000
+# a[3] = -1.00000 + i 0.00000
+# a[4] = -1.00000 + i 0.00000
+# a[5] = -1.00000 + i 0.00000
+# a[6] = 1.00000 + i 0.00000
+# a[7] = 1.00000 + i 0.00000
+# a[8] = 1.00000 + i 0.00000
+# a[9] = 1.00000 + i 0.00000
+# a[10] = 1.00000 + i 0.00000
+# a[11] = 1.00000 + i 0.00000
+# a[12] = 1.00000 + i 0.00000
+# a[13] = 1.00000 + i 0.00000
+# a[14] = 1.00000 + i 0.00000
+# a[15] = 1.00000 + i 0.00000
+# a[16] = -1.00000 + i 0.00000
+# a[17] = -1.00000 + i 0.00000
+# a[18] = -1.00000 + i 0.00000
+# a[19] = -1.00000 + i 0.00000
+# a[20] = -1.00000 + i 0.00000
+# a[21] = 1.00000 + i 0.00000
+# a[22] = 1.00000 + i 0.00000
+# a[23] = 1.00000 + i 0.00000
+# a[24] = 1.00000 + i 0.00000
+# a[25] = 1.00000 + i 0.00000
+# a[26] = -1.00000 + i 0.00000
+# a[27] = -1.00000 + i 0.00000
+# a[28] = -1.00000 + i 0.00000
+# a[29] = -1.00000 + i 0.00000
+# a[30] = -1.00000 + i 0.00000
+# a[31] = -1.00000 + i 0.00000
+# Compile of func_fft.sv was successful with warnings.
+vsim work.func_fft
+# End time: 10:24:18 on May 22,2024, Elapsed time: 0:01:06
+# Errors: 0, Warnings: 2
+# vsim work.func_fft 
+# Start time: 10:24:18 on May 22,2024
+# Loading sv_std.std
+# Loading work.func_fft
+run
+# Printing the FFT of input Array...
+# 
+# a[0] = -1.00000 + i 0.00000
+# a[1] = -1.00000 + i 0.00000
+# a[2] = -1.00000 + i 0.00000
+# a[3] = -1.00000 + i 0.00000
+# a[4] = -1.00000 + i 0.00000
+# a[5] = -1.00000 + i 0.00000
+# a[6] = 1.00000 + i 0.00000
+# a[7] = 1.00000 + i 0.00000
+# a[8] = 1.00000 + i 0.00000
+# a[9] = 1.00000 + i 0.00000
+# a[10] = 1.00000 + i 0.00000
+# a[11] = 1.00000 + i 0.00000
+# a[12] = 1.00000 + i 0.00000
+# a[13] = 1.00000 + i 0.00000
+# a[14] = 1.00000 + i 0.00000
+# a[15] = 1.00000 + i 0.00000
+# a[16] = -1.00000 + i 0.00000
+# a[17] = -1.00000 + i 0.00000
+# a[18] = -1.00000 + i 0.00000
+# a[19] = -1.00000 + i 0.00000
+# a[20] = -1.00000 + i 0.00000
+# a[21] = 1.00000 + i 0.00000
+# a[22] = 1.00000 + i 0.00000
+# a[23] = 1.00000 + i 0.00000
+# a[24] = 1.00000 + i 0.00000
+# a[25] = 1.00000 + i 0.00000
+# a[26] = -1.00000 + i 0.00000
+# a[27] = -1.00000 + i 0.00000
+# a[28] = -1.00000 + i 0.00000
+# a[29] = -1.00000 + i 0.00000
+# a[30] = -1.00000 + i 0.00000
+# a[31] = -1.00000 + i 0.00000
+# Compile of func_fft.sv was successful with warnings.
+vsim work.func_fft
+# End time: 10:25:03 on May 22,2024, Elapsed time: 0:00:45
+# Errors: 0, Warnings: 2
+# vsim work.func_fft 
+# Start time: 10:25:03 on May 22,2024
+# Loading sv_std.std
+# Loading work.func_fft
+run
+# Printing the FFT of input Array...
+# 
+# a[0] = -1.00000 + i 0.00000
+# a[1] = -1.00000 + i 0.00000
+# a[2] = 1.00000 + i 0.00000
+# a[3] = 1.00000 + i 0.00000
+# a[4] = -1.00000 + i 0.00000
+# a[5] = -1.00000 + i 0.00000
+# a[6] = 1.00000 + i 0.00000
+# a[7] = -1.00000 + i 0.00000
+# a[8] = -1.00000 + i 0.00000
+# a[9] = -1.00000 + i 0.00000
+# a[10] = 1.00000 + i 0.00000
+# a[11] = -1.00000 + i 0.00000
+# a[12] = 1.00000 + i 0.00000
+# a[13] = 1.00000 + i 0.00000
+# a[14] = 1.00000 + i 0.00000
+# a[15] = -1.00000 + i 0.00000
+# a[16] = -1.00000 + i 0.00000
+# a[17] = -1.00000 + i 0.00000
+# a[18] = 1.00000 + i 0.00000
+# a[19] = 1.00000 + i 0.00000
+# a[20] = -1.00000 + i 0.00000
+# a[21] = 1.00000 + i 0.00000
+# a[22] = 1.00000 + i 0.00000
+# a[23] = -1.00000 + i 0.00000
+# a[24] = -1.00000 + i 0.00000
+# a[25] = -1.00000 + i 0.00000
+# a[26] = 1.00000 + i 0.00000
+# a[27] = -1.00000 + i 0.00000
+# a[28] = 1.00000 + i 0.00000
+# a[29] = 1.00000 + i 0.00000
+# a[30] = 1.00000 + i 0.00000
+# a[31] = -1.00000 + i 0.00000
+# Printing the FFT of input Array...
+# 
+# a[0] = -1.00000 + i 0.00000
+# a[1] = -1.00000 + i 0.00000
+# a[2] = 1.00000 + i 0.00000
+# a[3] = 1.00000 + i 0.00000
+# a[4] = -1.00000 + i 0.00000
+# a[5] = -1.00000 + i 0.00000
+# a[6] = 1.00000 + i 0.00000
+# a[7] = -1.00000 + i 0.00000
+# a[8] = -1.00000 + i 0.00000
+# a[9] = -1.00000 + i 0.00000
+# a[10] = 1.00000 + i 0.00000
+# a[11] = -1.00000 + i 0.00000
+# a[12] = 1.00000 + i 0.00000
+# a[13] = 1.00000 + i 0.00000
+# a[14] = 1.00000 + i 0.00000
+# a[15] = -1.00000 + i 0.00000
+# a[16] = -1.00000 + i 0.00000
+# a[17] = -1.00000 + i 0.00000
+# a[18] = 1.00000 + i 0.00000
+# a[19] = 1.00000 + i 0.00000
+# a[20] = -1.00000 + i 0.00000
+# a[21] = 1.00000 + i 0.00000
+# a[22] = 1.00000 + i 0.00000
+# a[23] = -1.00000 + i 0.00000
+# a[24] = -1.00000 + i 0.00000
+# a[25] = -1.00000 + i 0.00000
+# a[26] = 1.00000 + i 0.00000
+# a[27] = -1.00000 + i 0.00000
+# a[28] = 1.00000 + i 0.00000
+# a[29] = 1.00000 + i 0.00000
+# a[30] = 1.00000 + i 0.00000
+# a[31] = -1.00000 + i 0.00000
+quit -sim
+# End time: 10:27:20 on May 22,2024, Elapsed time: 0:02:17
+# Errors: 0, Warnings: 1
+# Compile of func_cord.sv was successful.
+# Load canceled
+vsim work.func_CORD
+# vsim work.func_CORD 
+# Start time: 10:32:25 on May 22,2024
+# Loading sv_std.std
+# Loading work.func_CORD
+run
+# degree     sin_x       diff
+# -90 -1.00000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -75 -0.96592583 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -60 -0.86602540 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -45 -0.70710678 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -30 -0.50000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -15 -0.25881904 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 0 -0.00000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 15 0.25881904 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 30 0.50000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 45 0.70710678 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 60 0.86602540 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 75 0.96592583 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 90 1.00000000 (-0.00000000) 
+# 
+# Compile of func_cord.sv failed with 11 errors.
+# Compile of func_cord.sv failed with 5 errors.
+# Compile of func_cord.sv failed with 3 errors.
+# Compile of func_cord.sv failed with 3 errors.
+# Compile of func_cord.sv failed with 4 errors.
+# Compile of func_cord.sv failed with 4 errors.
+# Compile of func_cord.sv failed with 4 errors.
+# Compile of func_cord.sv failed with 3 errors.
+# Compile of func_cord.sv failed with 3 errors.
+# Compile of func_cord.sv failed with 3 errors.
+# Compile of func_cord.sv failed with 3 errors.
+# Compile of func_cord.sv failed with 3 errors.
+# Compile of func_cord.sv failed with 3 errors.
+# Compile of func_cord.sv failed with 3 errors.
+# Compile of func_cord.sv failed with 5 errors.
+# Compile of func_cord.sv failed with 5 errors.
+run -step
+# Nothing left to do.
+run -step
+# Nothing left to do.
+run -step
+# Nothing left to do.
+run -step
+# Nothing left to do.
+run -step
+# Nothing left to do.
+run -step
+# Nothing left to do.
+run -step
+# Nothing left to do.
+# Compile of func_cord.sv failed with 4 errors.
+# Compile of func_cord.sv failed with 4 errors.
+# Compile of func_cord.sv failed with 4 errors.
+# Compile of func_cord.sv failed with 3 errors.
+# Compile of func_cord.sv failed with 3 errors.
+# Compile of func_cord.sv was successful with warnings.
+# Compile of func_cord.sv was successful.
+vsim work.func_CORD
+# End time: 10:48:14 on May 22,2024, Elapsed time: 0:15:49
+# Errors: 0, Warnings: 26
+# vsim work.func_CORD 
+# Start time: 10:48:14 on May 22,2024
+# Loading sv_std.std
+# Loading work.func_CORD
+run
+# degree     sin_x       diff
+# -90 -1.00000000 (1.00000000) 
+# 
+# degree     sin_x       diff
+# -75 -0.58656129 (0.96592583) 
+# 
+# degree     sin_x       diff
+# -60 -0.31935217 (0.86602540) 
+# 
+# degree     sin_x       diff
+# -45 -0.15834118 (0.70710678) 
+# 
+# degree     sin_x       diff
+# -30 -0.06799054 (0.50000000) 
+# 
+# degree     sin_x       diff
+# -15 -0.02137196 (0.25881905) 
+# 
+# degree     sin_x       diff
+# 0 -0.00000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 15 0.00788104 (-0.25881905) 
+# 
+# degree     sin_x       diff
+# 30 0.00924543 (-0.50000000) 
+# 
+# degree     sin_x       diff
+# 45 0.00793984 (-0.70710678) 
+# 
+# degree     sin_x       diff
+# 60 0.00590509 (-0.86602540) 
+# 
+# degree     sin_x       diff
+# 75 0.00399954 (-0.96592583) 
+# 
+# degree     sin_x       diff
+# 90 0.00251441 (-1.00000000) 
+# 
+# Compile of func_cord.sv was successful.
+vsim work.func_CORD
+# End time: 10:49:59 on May 22,2024, Elapsed time: 0:01:45
+# Errors: 0, Warnings: 2
+# vsim work.func_CORD 
+# Start time: 10:49:59 on May 22,2024
+# Loading sv_std.std
+# Loading work.func_CORD
+run
+# degree     sin_x       diff
+# -90 -1.00000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -75 -0.58656129 (0.37936453) 
+# 
+# degree     sin_x       diff
+# -60 -0.31935217 (0.54667323) 
+# 
+# degree     sin_x       diff
+# -45 -0.15834118 (0.54876560) 
+# 
+# degree     sin_x       diff
+# -30 -0.06799054 (0.43200946) 
+# 
+# degree     sin_x       diff
+# -15 -0.02137196 (0.23744709) 
+# 
+# degree     sin_x       diff
+# 0 -0.00000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 15 0.00788104 (-0.25093800) 
+# 
+# degree     sin_x       diff
+# 30 0.00924543 (-0.49075457) 
+# 
+# degree     sin_x       diff
+# 45 0.00793984 (-0.69916694) 
+# 
+# degree     sin_x       diff
+# 60 0.00590509 (-0.86012031) 
+# 
+# degree     sin_x       diff
+# 75 0.00399954 (-0.96192629) 
+# 
+# degree     sin_x       diff
+# 90 0.00251441 (-0.99748559) 
+# 
+# Compile of func_cord.sv failed with 2 errors.
+run
+run
+# Compile of func_cord.sv failed with 2 errors.
+# Compile of func_cord.sv failed with 4 errors.
+# Compile of func_cord.sv failed with 1 errors.
+# Compile of func_cord.sv failed with 1 errors.
+# Compile of func_cord.sv was successful.
+vsim work.func_CORD
+# End time: 10:53:28 on May 22,2024, Elapsed time: 0:03:29
+# Errors: 0, Warnings: 7
+# vsim work.func_CORD 
+# Start time: 10:53:28 on May 22,2024
+# Loading sv_std.std
+# Loading work.func_CORD
+run
+# degree     sin_x       diff
+# -90 -0.00000000 (1.00000000) 
+# 
+# degree     sin_x       diff
+# -75 -0.00000000 (0.96592583) 
+# 
+# degree     sin_x       diff
+# -60 -0.00000000 (0.86602540) 
+# 
+# degree     sin_x       diff
+# -45 -0.00000000 (0.70710678) 
+# 
+# degree     sin_x       diff
+# -30 -0.00000000 (0.50000000) 
+# 
+# degree     sin_x       diff
+# -15 -0.00000000 (0.25881905) 
+# 
+# degree     sin_x       diff
+# 0 -0.00000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 15 0.00000000 (-0.25881905) 
+# 
+# degree     sin_x       diff
+# 30 0.00000000 (-0.50000000) 
+# 
+# degree     sin_x       diff
+# 45 0.00000000 (-0.70710678) 
+# 
+# degree     sin_x       diff
+# 60 0.00000000 (-0.86602540) 
+# 
+# degree     sin_x       diff
+# 75 0.00000000 (-0.96592583) 
+# 
+# degree     sin_x       diff
+# 90 0.00000000 (-1.00000000) 
+# 
+# Compile of func_cord.sv was successful.
+run
+vsim work.func_CORD
+# End time: 10:56:50 on May 22,2024, Elapsed time: 0:03:22
+# Errors: 0, Warnings: 2
+# vsim work.func_CORD 
+# Start time: 10:56:50 on May 22,2024
+# Loading sv_std.std
+# Loading work.func_CORD
+run
+# degree     sin_x       diff
+# -90 -0.00000000 (1.00000000) 
+# 
+# degree     sin_x       diff
+# -75 -0.00000000 (0.96592583) 
+# 
+# degree     sin_x       diff
+# -60 -0.00000000 (0.86602540) 
+# 
+# degree     sin_x       diff
+# -45 -0.00000000 (0.70710678) 
+# 
+# degree     sin_x       diff
+# -30 -0.00000000 (0.50000000) 
+# 
+# degree     sin_x       diff
+# -15 -0.00000000 (0.25881905) 
+# 
+# degree     sin_x       diff
+# 0 -0.00000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 15 0.00000000 (-0.25881905) 
+# 
+# degree     sin_x       diff
+# 30 0.00000000 (-0.50000000) 
+# 
+# degree     sin_x       diff
+# 45 0.00000000 (-0.70710678) 
+# 
+# degree     sin_x       diff
+# 60 0.00000000 (-0.86602540) 
+# 
+# degree     sin_x       diff
+# 75 0.00000000 (-0.96592583) 
+# 
+# degree     sin_x       diff
+# 90 0.00000000 (-1.00000000) 
+# 
+# Compile of func_cord.sv was successful.
+vsim work.func_CORD
+# End time: 10:57:42 on May 22,2024, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 2
+# vsim work.func_CORD 
+# Start time: 10:57:42 on May 22,2024
+# Loading sv_std.std
+# Loading work.func_CORD
+run
+# degree     sin_x       diff
+# -90 -0.00000000 (1.00000000) 
+# 
+# degree     sin_x       diff
+# -75 -0.00000000 (0.96592583) 
+# 
+# degree     sin_x       diff
+# -60 -0.00000000 (0.86602540) 
+# 
+# degree     sin_x       diff
+# -45 -0.00000000 (0.70710678) 
+# 
+# degree     sin_x       diff
+# -30 -0.00000000 (0.50000000) 
+# 
+# degree     sin_x       diff
+# -15 -0.00000000 (0.25881905) 
+# 
+# degree     sin_x       diff
+# 0 -0.00000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 15 0.00000000 (-0.25881905) 
+# 
+# degree     sin_x       diff
+# 30 0.00000000 (-0.50000000) 
+# 
+# degree     sin_x       diff
+# 45 0.00000000 (-0.70710678) 
+# 
+# degree     sin_x       diff
+# 60 0.00000000 (-0.86602540) 
+# 
+# degree     sin_x       diff
+# 75 0.00000000 (-0.96592583) 
+# 
+# degree     sin_x       diff
+# 90 0.00000000 (-1.00000000) 
+# 
+# Compile of func_cord.sv was successful.
+# Compile of func_cord.sv was successful.
+# Compile of func_fft.sv was successful with warnings.
+# Compile of func_cord.sv was successful.
+vsim work.func_CORD
+# End time: 11:00:04 on May 22,2024, Elapsed time: 0:02:22
+# Errors: 0, Warnings: 5
+# vsim work.func_CORD 
+# Start time: 11:00:04 on May 22,2024
+# Loading sv_std.std
+# Loading work.func_CORD
+run
+# degree     sin_x       diff
+# -90 -1.00000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -75 -0.58656129 (0.37936453) 
+# 
+# degree     sin_x       diff
+# -60 -0.31935217 (0.54667323) 
+# 
+# degree     sin_x       diff
+# -45 -0.15834118 (0.54876560) 
+# 
+# degree     sin_x       diff
+# -30 -0.06799054 (0.43200946) 
+# 
+# degree     sin_x       diff
+# -15 -0.02137196 (0.23744709) 
+# 
+# degree     sin_x       diff
+# 0 -0.00000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 15 0.00788104 (-0.25093800) 
+# 
+# degree     sin_x       diff
+# 30 0.00924543 (-0.49075457) 
+# 
+# degree     sin_x       diff
+# 45 0.00793984 (-0.69916694) 
+# 
+# degree     sin_x       diff
+# 60 0.00590509 (-0.86012031) 
+# 
+# degree     sin_x       diff
+# 75 0.00399954 (-0.96192629) 
+# 
+# degree     sin_x       diff
+# 90 0.00251441 (-0.99748559) 
+# 
+# Compile of func_cord.sv was successful.
+vsim work.func_CORD
+# End time: 11:00:56 on May 22,2024, Elapsed time: 0:00:52
+# Errors: 0, Warnings: 2
+# vsim work.func_CORD 
+# Start time: 11:00:56 on May 22,2024
+# Loading sv_std.std
+# Loading work.func_CORD
+run
+# degree     sin_x       diff
+# -90 -1.00000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -75 -0.96592583 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -60 -0.86602540 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -45 -0.70710678 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -30 -0.50000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -15 -0.25881904 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 0 -0.00000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 15 0.25881904 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 30 0.50000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 45 0.70710678 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 60 0.86602540 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 75 0.96592583 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 90 1.00000000 (-0.00000000) 
+# 
+# Compile of func_cord.sv was successful with warnings.
+vsim work.func_CORD
+# End time: 11:02:05 on May 22,2024, Elapsed time: 0:01:09
+# Errors: 0, Warnings: 2
+# vsim work.func_CORD 
+# Start time: 11:02:05 on May 22,2024
+# Loading sv_std.std
+# Loading work.func_CORD
+run
+# degree     sin_x       diff
+# -90 -1.00000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -75 -0.96592583 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -60 -0.86602540 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -45 -0.70710678 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -30 -0.50000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -15 -0.25881904 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 0 -0.00000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 15 0.25881904 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 30 0.50000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 45 0.70710678 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 60 0.86602540 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 75 0.96592583 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 90 1.00000000 (-0.00000000) 
+# 
+# Compile of func_cord.sv was successful with warnings.
+# Compile of func_cord.sv failed with 1 errors.
+# Compile of func_cord.sv was successful with warnings.
+vsim work.func_CORD
+# End time: 11:03:29 on May 22,2024, Elapsed time: 0:01:24
+# Errors: 0, Warnings: 4
+# vsim work.func_CORD 
+# Start time: 11:03:29 on May 22,2024
+# Loading sv_std.std
+# Loading work.func_CORD
+run
+# degree     sin_x       diff
+# -90 -1.00000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -75 -0.96592583 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -60 -0.86602540 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -45 -0.70710678 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -30 -0.50000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -15 -0.25881904 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 0 -0.00000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 15 0.25881904 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 30 0.50000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 45 0.70710678 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 60 0.86602540 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 75 0.96592583 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 90 1.00000000 (-0.00000000) 
+# 
+run
+# Compile of func_fft.sv failed with 1 errors.
+# Compile of func_fft.sv was successful with warnings.
+vsim work.func_fft
+# End time: 11:08:59 on May 22,2024, Elapsed time: 0:05:30
+# Errors: 0, Warnings: 3
+# vsim work.func_fft 
+# Start time: 11:08:59 on May 22,2024
+# Loading sv_std.std
+# Loading work.func_fft
+run
+# Printing the FFT of input Array...
+# 
+# a[0] = -2.00000 + i 0.00000
+# a[1] = -9.87413 + i -5.52866
+# a[2] = -13.13707 + i 4.61313
+# a[3] = 5.14699 + i -5.56932
+# a[4] = 4.82843 + i 6.82843
+# a[5] = 0.40189 + i -1.72130
+# a[6] = -1.61991 + i -0.91761
+# a[7] = -1.40601 + i -1.49754
+# a[8] = -2.00000 + i 0.00000
+# a[9] = 3.80383 + i 0.90028
+# a[10] = -0.72323 + i 3.08239
+# a[11] = 0.26175 + i -2.38494
+# a[12] = -0.82843 + i -1.17157
+# a[13] = -0.15378 + i -0.57611
+# a[14] = -0.51978 + i 0.61313
+# a[15] = 1.81945 + i 2.52602
+# a[16] = -2.00000 + i 0.00000
+# a[17] = 1.81945 + i -2.52602
+# a[18] = -0.51978 + i -0.61313
+# a[19] = -0.15378 + i 0.57611
+# a[20] = -0.82843 + i 1.17157
+# a[21] = 0.26175 + i 2.38494
+# a[22] = -0.72323 + i -3.08239
+# a[23] = 3.80383 + i -0.90028
+# a[24] = -2.00000 + i 0.00000
+# a[25] = -1.40601 + i 1.49754
+# a[26] = -1.61991 + i 0.91761
+# a[27] = 0.40189 + i 1.72130
+# a[28] = 4.82843 + i -6.82843
+# a[29] = 5.14699 + i 5.56932
+# a[30] = -13.13707 + i -4.61313
+# a[31] = -9.87413 + i 5.52866
+# Printing the FFT of input Array...
+# 
+# a[0] = -1.00000 + i 0.00000
+# a[1] = -1.00000 + i 0.00000
+# a[2] = -1.00000 + i 0.00000
+# a[3] = -1.00000 + i 0.00000
+# a[4] = -1.00000 + i 0.00000
+# a[5] = -1.00000 + i 0.00000
+# a[6] = 1.00000 + i 0.00000
+# a[7] = 1.00000 + i 0.00000
+# a[8] = 1.00000 + i 0.00000
+# a[9] = 1.00000 + i 0.00000
+# a[10] = 1.00000 + i 0.00000
+# a[11] = 1.00000 + i 0.00000
+# a[12] = 1.00000 + i 0.00000
+# a[13] = 1.00000 + i 0.00000
+# a[14] = 1.00000 + i 0.00000
+# a[15] = 1.00000 + i 0.00000
+# a[16] = -1.00000 + i 0.00000
+# a[17] = -1.00000 + i 0.00000
+# a[18] = -1.00000 + i 0.00000
+# a[19] = -1.00000 + i 0.00000
+# a[20] = -1.00000 + i 0.00000
+# a[21] = 1.00000 + i 0.00000
+# a[22] = 1.00000 + i 0.00000
+# a[23] = 1.00000 + i 0.00000
+# a[24] = 1.00000 + i 0.00000
+# a[25] = 1.00000 + i 0.00000
+# a[26] = -1.00000 + i 0.00000
+# a[27] = -1.00000 + i 0.00000
+# a[28] = -1.00000 + i 0.00000
+# a[29] = -1.00000 + i 0.00000
+# a[30] = -1.00000 + i 0.00000
+# a[31] = -1.00000 + i 0.00000
+# Compile of func_fft.sv was successful with warnings.
+vsim work.func_fft
+# End time: 11:09:52 on May 22,2024, Elapsed time: 0:00:53
+# Errors: 0, Warnings: 2
+# vsim work.func_fft 
+# Start time: 11:09:52 on May 22,2024
+# Loading sv_std.std
+# Loading work.func_fft
+run
+# Printing the FFT of input Array...
+# 
+# a[0] = -2.00000 + i 0.00000
+# a[1] = -9.87413 + i -5.52866
+# a[2] = -13.13707 + i 4.61313
+# a[3] = 5.14699 + i -5.56932
+# a[4] = 4.82843 + i 6.82843
+# a[5] = 0.40189 + i -1.72130
+# a[6] = -1.61991 + i -0.91761
+# a[7] = -1.40601 + i -1.49754
+# a[8] = -2.00000 + i 0.00000
+# a[9] = 3.80383 + i 0.90028
+# a[10] = -0.72323 + i 3.08239
+# a[11] = 0.26175 + i -2.38494
+# a[12] = -0.82843 + i -1.17157
+# a[13] = -0.15378 + i -0.57611
+# a[14] = -0.51978 + i 0.61313
+# a[15] = 1.81945 + i 2.52602
+# a[16] = -2.00000 + i 0.00000
+# a[17] = 1.81945 + i -2.52602
+# a[18] = -0.51978 + i -0.61313
+# a[19] = -0.15378 + i 0.57611
+# a[20] = -0.82843 + i 1.17157
+# a[21] = 0.26175 + i 2.38494
+# a[22] = -0.72323 + i -3.08239
+# a[23] = 3.80383 + i -0.90028
+# a[24] = -2.00000 + i 0.00000
+# a[25] = -1.40601 + i 1.49754
+# a[26] = -1.61991 + i 0.91761
+# a[27] = 0.40189 + i 1.72130
+# a[28] = 4.82843 + i -6.82843
+# a[29] = 5.14699 + i 5.56932
+# a[30] = -13.13707 + i -4.61313
+# a[31] = -9.87413 + i 5.52866
+# Printing the FFT of input Array...
+# 
+# a[0] = -2.00000 + i 0.00000
+# a[1] = -9.87413 + i -5.52866
+# a[2] = -13.13707 + i 4.61313
+# a[3] = 5.14699 + i -5.56932
+# a[4] = 4.82843 + i 6.82843
+# a[5] = 0.40189 + i -1.72130
+# a[6] = -1.61991 + i -0.91761
+# a[7] = -1.40601 + i -1.49754
+# a[8] = -2.00000 + i 0.00000
+# a[9] = 3.80383 + i 0.90028
+# a[10] = -0.72323 + i 3.08239
+# a[11] = 0.26175 + i -2.38494
+# a[12] = -0.82843 + i -1.17157
+# a[13] = -0.15378 + i -0.57611
+# a[14] = -0.51978 + i 0.61313
+# a[15] = 1.81945 + i 2.52602
+# a[16] = -2.00000 + i 0.00000
+# a[17] = 1.81945 + i -2.52602
+# a[18] = -0.51978 + i -0.61313
+# a[19] = -0.15378 + i 0.57611
+# a[20] = -0.82843 + i 1.17157
+# a[21] = 0.26175 + i 2.38494
+# a[22] = -0.72323 + i -3.08239
+# a[23] = 3.80383 + i -0.90028
+# a[24] = -2.00000 + i 0.00000
+# a[25] = -1.40601 + i 1.49754
+# a[26] = -1.61991 + i 0.91761
+# a[27] = 0.40189 + i 1.72130
+# a[28] = 4.82843 + i -6.82843
+# a[29] = 5.14699 + i 5.56932
+# a[30] = -13.13707 + i -4.61313
+# a[31] = -9.87413 + i 5.52866
+# Compile of func_fft.sv was successful with warnings.
+# Compile of cosin_tab.sv was successful.
+# Compile of arr_test(4).sv was successful.
+# Compile of arr_test(5).sv was successful.
+# Compile of fft2.sv was successful.
+# Compile of fixp.sv was successful.
+# Compile of fptest.sv was successful.
+# Compile of fptest2.sv was successful.
+# Compile of CORsine.sv was successful.
+# Compile of CORD.sv was successful.
+# Compile of func_fft.sv was successful with warnings.
+# Compile of func_cord.sv was successful with warnings.
+# 11 compiles, 0 failed with no errors.
+vsim work.func_fft
+# End time: 11:17:23 on May 22,2024, Elapsed time: 0:07:31
+# Errors: 0, Warnings: 3
+# vsim work.func_fft 
+# Start time: 11:17:23 on May 22,2024
+# Loading sv_std.std
+# Loading work.func_fft
+run
+# Printing the FFT of input Array...
+# 
+# a[0] = -2.00000 + i 0.00000
+# a[1] = -9.87413 + i -5.52866
+# a[2] = -13.13707 + i 4.61313
+# a[3] = 5.14699 + i -5.56932
+# a[4] = 4.82843 + i 6.82843
+# a[5] = 0.40189 + i -1.72130
+# a[6] = -1.61991 + i -0.91761
+# a[7] = -1.40601 + i -1.49754
+# a[8] = -2.00000 + i 0.00000
+# a[9] = 3.80383 + i 0.90028
+# a[10] = -0.72323 + i 3.08239
+# a[11] = 0.26175 + i -2.38494
+# a[12] = -0.82843 + i -1.17157
+# a[13] = -0.15378 + i -0.57611
+# a[14] = -0.51978 + i 0.61313
+# a[15] = 1.81945 + i 2.52602
+# a[16] = -2.00000 + i 0.00000
+# a[17] = 1.81945 + i -2.52602
+# a[18] = -0.51978 + i -0.61313
+# a[19] = -0.15378 + i 0.57611
+# a[20] = -0.82843 + i 1.17157
+# a[21] = 0.26175 + i 2.38494
+# a[22] = -0.72323 + i -3.08239
+# a[23] = 3.80383 + i -0.90028
+# a[24] = -2.00000 + i 0.00000
+# a[25] = -1.40601 + i 1.49754
+# a[26] = -1.61991 + i 0.91761
+# a[27] = 0.40189 + i 1.72130
+# a[28] = 4.82843 + i -6.82843
+# a[29] = 5.14699 + i 5.56932
+# a[30] = -13.13707 + i -4.61313
+# a[31] = -9.87413 + i 5.52866
+# Compile of final_fft.sv failed with 1 errors.
+# Compile of final_fft.sv was successful with warnings.
+vsim work.final_fft
+# End time: 11:20:54 on May 22,2024, Elapsed time: 0:03:31
+# Errors: 0, Warnings: 4
+# vsim work.final_fft 
+# Start time: 11:20:54 on May 22,2024
+# Loading sv_std.std
+# Loading work.final_fft
+run
+# degree     sin_x       diff
+# -90 -0.60725294 (0.39274706) 
+# 
+# degree     sin_x       diff
+# -75 -0.60725294 (0.35867289) 
+# 
+# degree     sin_x       diff
+# -60 -0.60725294 (0.25877247) 
+# 
+# degree     sin_x       diff
+# -45 -0.60725294 (0.09985385) 
+# 
+# degree     sin_x       diff
+# -30 -0.60725294 (-0.10725294) 
+# 
+# degree     sin_x       diff
+# -15 -0.60725294 (-0.34843389) 
+# 
+# degree     sin_x       diff
+# 0 -0.60725294 (-0.60725294) 
+# 
+# degree     sin_x       diff
+# 15 0.60725294 (0.34843389) 
+# 
+# degree     sin_x       diff
+# 30 0.60725294 (0.10725294) 
+# 
+# degree     sin_x       diff
+# 45 0.60725294 (-0.09985385) 
+# 
+# degree     sin_x       diff
+# 60 0.60725294 (-0.25877247) 
+# 
+# degree     sin_x       diff
+# 75 0.60725294 (-0.35867289) 
+# 
+# degree     sin_x       diff
+# 90 0.60725294 (-0.39274706) 
+# 
+# Printing the FFT of input Array...
+# 
+# a[0] = -2.00000 + i 0.00000
+# a[1] = -9.87413 + i -5.52866
+# a[2] = -13.13707 + i 4.61313
+# a[3] = 5.14699 + i -5.56932
+# a[4] = 4.82843 + i 6.82843
+# a[5] = 0.40189 + i -1.72130
+# a[6] = -1.61991 + i -0.91761
+# a[7] = -1.40601 + i -1.49754
+# a[8] = -2.00000 + i 0.00000
+# a[9] = 3.80383 + i 0.90028
+# a[10] = -0.72323 + i 3.08239
+# a[11] = 0.26175 + i -2.38494
+# a[12] = -0.82843 + i -1.17157
+# a[13] = -0.15378 + i -0.57611
+# a[14] = -0.51978 + i 0.61313
+# a[15] = 1.81945 + i 2.52602
+# a[16] = -2.00000 + i 0.00000
+# a[17] = 1.81945 + i -2.52602
+# a[18] = -0.51978 + i -0.61313
+# a[19] = -0.15378 + i 0.57611
+# a[20] = -0.82843 + i 1.17157
+# a[21] = 0.26175 + i 2.38494
+# a[22] = -0.72323 + i -3.08239
+# a[23] = 3.80383 + i -0.90028
+# a[24] = -2.00000 + i 0.00000
+# a[25] = -1.40601 + i 1.49754
+# a[26] = -1.61991 + i 0.91761
+# a[27] = 0.40189 + i 1.72130
+# a[28] = 4.82843 + i -6.82843
+# a[29] = 5.14699 + i 5.56932
+# a[30] = -13.13707 + i -4.61313
+# a[31] = -9.87413 + i 5.52866
+# Compile of final_fft.sv was successful with warnings.
+vsim work.final_fft
+# End time: 11:22:09 on May 22,2024, Elapsed time: 0:01:15
+# Errors: 0, Warnings: 2
+# vsim work.final_fft 
+# Start time: 11:22:09 on May 22,2024
+# Loading sv_std.std
+# Loading work.final_fft
+run
+# degree     sin_x       diff
+# -90 -0.60725294 (0.39274706) 
+# 
+# degree     sin_x       diff
+# -75 -0.60725294 (0.35867289) 
+# 
+# degree     sin_x       diff
+# -60 -0.60725294 (0.25877247) 
+# 
+# degree     sin_x       diff
+# -45 -0.60725294 (0.09985385) 
+# 
+# degree     sin_x       diff
+# -30 -0.60725294 (-0.10725294) 
+# 
+# degree     sin_x       diff
+# -15 -0.60725294 (-0.34843389) 
+# 
+# degree     sin_x       diff
+# 0 -0.60725294 (-0.60725294) 
+# 
+# degree     sin_x       diff
+# 15 0.60725294 (0.34843389) 
+# 
+# degree     sin_x       diff
+# 30 0.60725294 (0.10725294) 
+# 
+# degree     sin_x       diff
+# 45 0.60725294 (-0.09985385) 
+# 
+# degree     sin_x       diff
+# 60 0.60725294 (-0.25877247) 
+# 
+# degree     sin_x       diff
+# 75 0.60725294 (-0.35867289) 
+# 
+# degree     sin_x       diff
+# 90 0.60725294 (-0.39274706) 
+# 
+# Printing the FFT of input Array...
+# 
+# a[0] = -2.00000 + i 0.00000
+# a[1] = -9.87413 + i -5.52866
+# a[2] = -13.13707 + i 4.61313
+# a[3] = 5.14699 + i -5.56932
+# a[4] = 4.82843 + i 6.82843
+# a[5] = 0.40189 + i -1.72130
+# a[6] = -1.61991 + i -0.91761
+# a[7] = -1.40601 + i -1.49754
+# a[8] = -2.00000 + i 0.00000
+# a[9] = 3.80383 + i 0.90028
+# a[10] = -0.72323 + i 3.08239
+# a[11] = 0.26175 + i -2.38494
+# a[12] = -0.82843 + i -1.17157
+# a[13] = -0.15378 + i -0.57611
+# a[14] = -0.51978 + i 0.61313
+# a[15] = 1.81945 + i 2.52602
+# a[16] = -2.00000 + i 0.00000
+# a[17] = 1.81945 + i -2.52602
+# a[18] = -0.51978 + i -0.61313
+# a[19] = -0.15378 + i 0.57611
+# a[20] = -0.82843 + i 1.17157
+# a[21] = 0.26175 + i 2.38494
+# a[22] = -0.72323 + i -3.08239
+# a[23] = 3.80383 + i -0.90028
+# a[24] = -2.00000 + i 0.00000
+# a[25] = -1.40601 + i 1.49754
+# a[26] = -1.61991 + i 0.91761
+# a[27] = 0.40189 + i 1.72130
+# a[28] = 4.82843 + i -6.82843
+# a[29] = 5.14699 + i 5.56932
+# a[30] = -13.13707 + i -4.61313
+# a[31] = -9.87413 + i 5.52866
+# Compile of func_cord.sv was successful with warnings.
+vsim work.func_CORD
+# End time: 11:22:43 on May 22,2024, Elapsed time: 0:00:34
+# Errors: 0, Warnings: 2
+# vsim work.func_CORD 
+# Start time: 11:22:43 on May 22,2024
+# Loading sv_std.std
+# Loading work.func_CORD
+run
+# degree     sin_x       diff
+# -90 -1.00000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -75 -0.96592583 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -60 -0.86602540 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -45 -0.70710678 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -30 -0.50000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -15 -0.25881904 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 0 -0.00000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 15 0.25881904 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 30 0.50000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 45 0.70710678 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 60 0.86602540 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 75 0.96592583 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 90 1.00000000 (-0.00000000) 
+# 
+# Compile of func_cord.sv was successful with warnings.
+vsim work.final_fft
+# End time: 11:24:13 on May 22,2024, Elapsed time: 0:01:30
+# Errors: 0, Warnings: 2
+# vsim work.final_fft 
+# Start time: 11:24:13 on May 22,2024
+# Loading sv_std.std
+# Loading work.final_fft
+run
+# degree     sin_x       diff
+# -90 -0.60725294 (0.39274706) 
+# 
+# degree     sin_x       diff
+# -75 -0.60725294 (0.35867289) 
+# 
+# degree     sin_x       diff
+# -60 -0.60725294 (0.25877247) 
+# 
+# degree     sin_x       diff
+# -45 -0.60725294 (0.09985385) 
+# 
+# degree     sin_x       diff
+# -30 -0.60725294 (-0.10725294) 
+# 
+# degree     sin_x       diff
+# -15 -0.60725294 (-0.34843389) 
+# 
+# degree     sin_x       diff
+# 0 -0.60725294 (-0.60725294) 
+# 
+# degree     sin_x       diff
+# 15 0.60725294 (0.34843389) 
+# 
+# degree     sin_x       diff
+# 30 0.60725294 (0.10725294) 
+# 
+# degree     sin_x       diff
+# 45 0.60725294 (-0.09985385) 
+# 
+# degree     sin_x       diff
+# 60 0.60725294 (-0.25877247) 
+# 
+# degree     sin_x       diff
+# 75 0.60725294 (-0.35867289) 
+# 
+# degree     sin_x       diff
+# 90 0.60725294 (-0.39274706) 
+# 
+# Printing the FFT of input Array...
+# 
+# a[0] = -2.00000 + i 0.00000
+# a[1] = -9.87413 + i -5.52866
+# a[2] = -13.13707 + i 4.61313
+# a[3] = 5.14699 + i -5.56932
+# a[4] = 4.82843 + i 6.82843
+# a[5] = 0.40189 + i -1.72130
+# a[6] = -1.61991 + i -0.91761
+# a[7] = -1.40601 + i -1.49754
+# a[8] = -2.00000 + i 0.00000
+# a[9] = 3.80383 + i 0.90028
+# a[10] = -0.72323 + i 3.08239
+# a[11] = 0.26175 + i -2.38494
+# a[12] = -0.82843 + i -1.17157
+# a[13] = -0.15378 + i -0.57611
+# a[14] = -0.51978 + i 0.61313
+# a[15] = 1.81945 + i 2.52602
+# a[16] = -2.00000 + i 0.00000
+# a[17] = 1.81945 + i -2.52602
+# a[18] = -0.51978 + i -0.61313
+# a[19] = -0.15378 + i 0.57611
+# a[20] = -0.82843 + i 1.17157
+# a[21] = 0.26175 + i 2.38494
+# a[22] = -0.72323 + i -3.08239
+# a[23] = 3.80383 + i -0.90028
+# a[24] = -2.00000 + i 0.00000
+# a[25] = -1.40601 + i 1.49754
+# a[26] = -1.61991 + i 0.91761
+# a[27] = 0.40189 + i 1.72130
+# a[28] = 4.82843 + i -6.82843
+# a[29] = 5.14699 + i 5.56932
+# a[30] = -13.13707 + i -4.61313
+# a[31] = -9.87413 + i 5.52866
+# Compile of func_cord.sv was successful with warnings.
+vsim work.final_fft
+# End time: 11:25:44 on May 22,2024, Elapsed time: 0:01:31
+# Errors: 0, Warnings: 2
+# vsim work.final_fft 
+# Start time: 11:25:44 on May 22,2024
+# Loading sv_std.std
+# Loading work.final_fft
+run
+# degree     sin_x       diff
+# -90 -0.60725294 (0.39274706) 
+# 
+# degree     sin_x       diff
+# -75 -0.60725294 (0.35867289) 
+# 
+# degree     sin_x       diff
+# -60 -0.60725294 (0.25877247) 
+# 
+# degree     sin_x       diff
+# -45 -0.60725294 (0.09985385) 
+# 
+# degree     sin_x       diff
+# -30 -0.60725294 (-0.10725294) 
+# 
+# degree     sin_x       diff
+# -15 -0.60725294 (-0.34843389) 
+# 
+# degree     sin_x       diff
+# 0 -0.60725294 (-0.60725294) 
+# 
+# degree     sin_x       diff
+# 15 0.60725294 (0.34843389) 
+# 
+# degree     sin_x       diff
+# 30 0.60725294 (0.10725294) 
+# 
+# degree     sin_x       diff
+# 45 0.60725294 (-0.09985385) 
+# 
+# degree     sin_x       diff
+# 60 0.60725294 (-0.25877247) 
+# 
+# degree     sin_x       diff
+# 75 0.60725294 (-0.35867289) 
+# 
+# degree     sin_x       diff
+# 90 0.60725294 (-0.39274706) 
+# 
+# Printing the FFT of input Array...
+# 
+# a[0] = -2.00000 + i 0.00000
+# a[1] = -9.87413 + i -5.52866
+# a[2] = -13.13707 + i 4.61313
+# a[3] = 5.14699 + i -5.56932
+# a[4] = 4.82843 + i 6.82843
+# a[5] = 0.40189 + i -1.72130
+# a[6] = -1.61991 + i -0.91761
+# a[7] = -1.40601 + i -1.49754
+# a[8] = -2.00000 + i 0.00000
+# a[9] = 3.80383 + i 0.90028
+# a[10] = -0.72323 + i 3.08239
+# a[11] = 0.26175 + i -2.38494
+# a[12] = -0.82843 + i -1.17157
+# a[13] = -0.15378 + i -0.57611
+# a[14] = -0.51978 + i 0.61313
+# a[15] = 1.81945 + i 2.52602
+# a[16] = -2.00000 + i 0.00000
+# a[17] = 1.81945 + i -2.52602
+# a[18] = -0.51978 + i -0.61313
+# a[19] = -0.15378 + i 0.57611
+# a[20] = -0.82843 + i 1.17157
+# a[21] = 0.26175 + i 2.38494
+# a[22] = -0.72323 + i -3.08239
+# a[23] = 3.80383 + i -0.90028
+# a[24] = -2.00000 + i 0.00000
+# a[25] = -1.40601 + i 1.49754
+# a[26] = -1.61991 + i 0.91761
+# a[27] = 0.40189 + i 1.72130
+# a[28] = 4.82843 + i -6.82843
+# a[29] = 5.14699 + i 5.56932
+# a[30] = -13.13707 + i -4.61313
+# a[31] = -9.87413 + i 5.52866
+# Compile of final_fft.sv failed with 1 errors.
+# Compile of final_fft.sv was successful with warnings.
+vsim work.final_fft
+# End time: 11:26:41 on May 22,2024, Elapsed time: 0:00:57
+# Errors: 0, Warnings: 3
+# vsim work.final_fft 
+# Start time: 11:26:41 on May 22,2024
+# Loading sv_std.std
+# Loading work.final_fft
+run
+# degree     sin_x       diff
+# -90 -0.60725294 (0.39274706) 
+# 
+# degree     sin_x       diff
+# -75 -0.60725294 (0.35867289) 
+# 
+# degree     sin_x       diff
+# -60 -0.60725294 (0.25877247) 
+# 
+# degree     sin_x       diff
+# -45 -0.60725294 (0.09985385) 
+# 
+# degree     sin_x       diff
+# -30 -0.60725294 (-0.10725294) 
+# 
+# degree     sin_x       diff
+# -15 -0.60725294 (-0.34843389) 
+# 
+# degree     sin_x       diff
+# 0 -0.60725294 (-0.60725294) 
+# 
+# degree     sin_x       diff
+# 15 0.60725294 (0.34843389) 
+# 
+# degree     sin_x       diff
+# 30 0.60725294 (0.10725294) 
+# 
+# degree     sin_x       diff
+# 45 0.60725294 (-0.09985385) 
+# 
+# degree     sin_x       diff
+# 60 0.60725294 (-0.25877247) 
+# 
+# degree     sin_x       diff
+# 75 0.60725294 (-0.35867289) 
+# 
+# degree     sin_x       diff
+# 90 0.60725294 (-0.39274706) 
+# 
+# Compile of final_fft.sv failed with 1 errors.
+# Compile of final_fft.sv failed with 1 errors.
+# Compile of final_fft.sv failed with 1 errors.
+# Compile of final_fft.sv was successful with warnings.
+vsim work.final_fft
+# End time: 11:28:55 on May 22,2024, Elapsed time: 0:02:14
+# Errors: 0, Warnings: 5
+# vsim work.final_fft 
+# Start time: 11:28:55 on May 22,2024
+# Loading sv_std.std
+# Loading work.final_fft
+run
+# degree     sin_x       diff
+# -90 -0.60725294 (0.39274706) 
+# 
+# degree     sin_x       diff
+# -75 -0.60725294 (0.35867289) 
+# 
+# degree     sin_x       diff
+# -60 -0.60725294 (0.25877247) 
+# 
+# degree     sin_x       diff
+# -45 -0.60725294 (0.09985385) 
+# 
+# degree     sin_x       diff
+# -30 -0.60725294 (-0.10725294) 
+# 
+# degree     sin_x       diff
+# -15 -0.60725294 (-0.34843389) 
+# 
+# degree     sin_x       diff
+# 0 -0.60725294 (-0.60725294) 
+# 
+# degree     sin_x       diff
+# 15 0.60725294 (0.34843389) 
+# 
+# degree     sin_x       diff
+# 30 0.60725294 (0.10725294) 
+# 
+# degree     sin_x       diff
+# 45 0.60725294 (-0.09985385) 
+# 
+# degree     sin_x       diff
+# 60 0.60725294 (-0.25877247) 
+# 
+# degree     sin_x       diff
+# 75 0.60725294 (-0.35867289) 
+# 
+# degree     sin_x       diff
+# 90 0.60725294 (-0.39274706) 
+# 
+# Compile of final_fft.sv failed with 3 errors.
+# Compile of final_fft.sv failed with 3 errors.
+# Compile of final_fft.sv failed with 3 errors.
+# Compile of final_fft.sv was successful with warnings.
+vsim work.final_fft
+# End time: 11:31:16 on May 22,2024, Elapsed time: 0:02:21
+# Errors: 0, Warnings: 5
+# vsim work.final_fft 
+# Start time: 11:31:16 on May 22,2024
+# Loading sv_std.std
+# Loading work.final_fft
+run
+# degree     sin_x       diff
+# -90 -1.00000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -75 -0.96592583 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -60 -0.86602540 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -45 -0.70710678 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -30 -0.50000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -15 -0.25881904 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 0 -0.00000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 15 0.25881904 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 30 0.50000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 45 0.70710678 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 60 0.86602540 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 75 0.96592583 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 90 1.00000000 (-0.00000000) 
+# 
+# Compile of final_fft.sv was successful with warnings.
+vsim work.final_fft
+# End time: 11:31:46 on May 22,2024, Elapsed time: 0:00:30
+# Errors: 0, Warnings: 2
+# vsim work.final_fft 
+# Start time: 11:31:46 on May 22,2024
+# Loading sv_std.std
+# Loading work.final_fft
+run
+# degree     sin_x       diff
+# -90 -1.00000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -75 -0.96592583 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -60 -0.86602540 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -45 -0.70710678 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -30 -0.50000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -15 -0.25881904 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 0 -0.00000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 15 0.25881904 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 30 0.50000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 45 0.70710678 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 60 0.86602540 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 75 0.96592583 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 90 1.00000000 (-0.00000000) 
+# 
+# Compile of final_fft.sv was successful with warnings.
+vsim work.final_fft
+# End time: 11:32:12 on May 22,2024, Elapsed time: 0:00:26
+# Errors: 0, Warnings: 2
+# vsim work.final_fft 
+# Start time: 11:32:12 on May 22,2024
+# Loading sv_std.std
+# Loading work.final_fft
+run
+# degree     sin_x       diff
+# -90 -1.00000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -75 -0.96592583 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -60 -0.86602540 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -45 -0.70710678 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -30 -0.50000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -15 -0.25881904 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 0 -0.00000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 15 0.25881904 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 30 0.50000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 45 0.70710678 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 60 0.86602540 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 75 0.96592583 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 90 1.00000000 (-0.00000000) 
+# 
+# Compile of final_fft.sv failed with 1 errors.
+# Compile of final_fft.sv failed with 1 errors.
+# Compile of final_fft.sv was successful with warnings.
+vsim work.final_fft
+# End time: 11:32:59 on May 22,2024, Elapsed time: 0:00:47
+# Errors: 0, Warnings: 4
+# vsim work.final_fft 
+# Start time: 11:32:59 on May 22,2024
+# Loading sv_std.std
+# Loading work.final_fft
+run
+# degree     sin_x       diff
+# -90 -1.00000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -75 -0.96592583 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -60 -0.86602540 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -45 -0.70710678 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -30 -0.50000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -15 -0.25881904 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 0 -0.00000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 15 0.25881904 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 30 0.50000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 45 0.70710678 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 60 0.86602540 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 75 0.96592583 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 90 1.00000000 (-0.00000000) 
+# 
+# Printing the FFT of input Array...
+# 
+# a[0] = -2.00000 + i 0.00000
+# a[1] = -9.87413 + i -5.52866
+# a[2] = -13.13707 + i 4.61313
+# a[3] = 5.14699 + i -5.56932
+# a[4] = 4.82843 + i 6.82843
+# a[5] = 0.40189 + i -1.72130
+# a[6] = -1.61991 + i -0.91761
+# a[7] = -1.40601 + i -1.49754
+# a[8] = -2.00000 + i 0.00000
+# a[9] = 3.80383 + i 0.90028
+# a[10] = -0.72323 + i 3.08239
+# a[11] = 0.26175 + i -2.38494
+# a[12] = -0.82843 + i -1.17157
+# a[13] = -0.15378 + i -0.57611
+# a[14] = -0.51978 + i 0.61313
+# a[15] = 1.81945 + i 2.52602
+# a[16] = -2.00000 + i 0.00000
+# a[17] = 1.81945 + i -2.52602
+# a[18] = -0.51978 + i -0.61313
+# a[19] = -0.15378 + i 0.57611
+# a[20] = -0.82843 + i 1.17157
+# a[21] = 0.26175 + i 2.38494
+# a[22] = -0.72323 + i -3.08239
+# a[23] = 3.80383 + i -0.90028
+# a[24] = -2.00000 + i 0.00000
+# a[25] = -1.40601 + i 1.49754
+# a[26] = -1.61991 + i 0.91761
+# a[27] = 0.40189 + i 1.72130
+# a[28] = 4.82843 + i -6.82843
+# a[29] = 5.14699 + i 5.56932
+# a[30] = -13.13707 + i -4.61313
+# a[31] = -9.87413 + i 5.52866
+# Compile of final_fft.sv was successful with warnings.
+vsim work.final_fft
+# End time: 11:34:42 on May 22,2024, Elapsed time: 0:01:43
+# Errors: 0, Warnings: 2
+# vsim work.final_fft 
+# Start time: 11:34:42 on May 22,2024
+# Loading sv_std.std
+# Loading work.final_fft
+run
+# degree     sin_x       diff
+# -90 -1.00000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -75 -0.96592583 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -60 -0.86602540 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -45 -0.70710678 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -30 -0.50000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -15 -0.25881904 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 0 -0.00000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 15 0.25881904 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 30 0.50000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 45 0.70710678 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 60 0.86602540 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 75 0.96592583 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 90 1.00000000 (-0.00000000) 
+# 
+# Printing the FFT of input Array...
+# 
+# a[0] = -2.00000 + i 0.00000
+# a[1] = -9.87413 + i -5.52866
+# a[2] = -13.13707 + i 4.61313
+# a[3] = 5.14699 + i -5.56932
+# a[4] = 4.82843 + i 6.82843
+# a[5] = 0.40189 + i -1.72130
+# a[6] = -1.61991 + i -0.91761
+# a[7] = -1.40601 + i -1.49754
+# a[8] = -2.00000 + i 0.00000
+# a[9] = 3.80383 + i 0.90028
+# a[10] = -0.72323 + i 3.08239
+# a[11] = 0.26175 + i -2.38494
+# a[12] = -0.82843 + i -1.17157
+# a[13] = -0.15378 + i -0.57611
+# a[14] = -0.51978 + i 0.61313
+# a[15] = 1.81945 + i 2.52602
+# a[16] = -2.00000 + i 0.00000
+# a[17] = 1.81945 + i -2.52602
+# a[18] = -0.51978 + i -0.61313
+# a[19] = -0.15378 + i 0.57611
+# a[20] = -0.82843 + i 1.17157
+# a[21] = 0.26175 + i 2.38494
+# a[22] = -0.72323 + i -3.08239
+# a[23] = 3.80383 + i -0.90028
+# a[24] = -2.00000 + i 0.00000
+# a[25] = -1.40601 + i 1.49754
+# a[26] = -1.61991 + i 0.91761
+# a[27] = 0.40189 + i 1.72130
+# a[28] = 4.82843 + i -6.82843
+# a[29] = 5.14699 + i 5.56932
+# a[30] = -13.13707 + i -4.61313
+# a[31] = -9.87413 + i 5.52866
+# Compile of final_fft.sv was successful with warnings.
+vsim work.final_fft
+# End time: 11:34:58 on May 22,2024, Elapsed time: 0:00:16
+# Errors: 0, Warnings: 2
+# vsim work.final_fft 
+# Start time: 11:34:58 on May 22,2024
+# Loading sv_std.std
+# Loading work.final_fft
+run
+# degree     sin_x       diff
+# -90 -1.00000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -75 -0.96592583 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -60 -0.86602540 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -45 -0.70710678 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -30 -0.50000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -15 -0.25881904 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 0 -0.00000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 15 0.25881904 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 30 0.50000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 45 0.70710678 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 60 0.86602540 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 75 0.96592583 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 90 1.00000000 (-0.00000000) 
+# 
+# Printing the FFT of input Array...
+# 
+# a[0] = -2.00000 + i 0.00000
+# a[1] = -9.87413 + i -5.52866
+# a[2] = -13.13707 + i 4.61313
+# a[3] = 5.14699 + i -5.56932
+# a[4] = 4.82843 + i 6.82843
+# a[5] = 0.40189 + i -1.72130
+# a[6] = -1.61991 + i -0.91761
+# a[7] = -1.40601 + i -1.49754
+# a[8] = -2.00000 + i 0.00000
+# a[9] = 3.80383 + i 0.90028
+# a[10] = -0.72323 + i 3.08239
+# a[11] = 0.26175 + i -2.38494
+# a[12] = -0.82843 + i -1.17157
+# a[13] = -0.15378 + i -0.57611
+# a[14] = -0.51978 + i 0.61313
+# a[15] = 1.81945 + i 2.52602
+# a[16] = -2.00000 + i 0.00000
+# a[17] = 1.81945 + i -2.52602
+# a[18] = -0.51978 + i -0.61313
+# a[19] = -0.15378 + i 0.57611
+# a[20] = -0.82843 + i 1.17157
+# a[21] = 0.26175 + i 2.38494
+# a[22] = -0.72323 + i -3.08239
+# a[23] = 3.80383 + i -0.90028
+# a[24] = -2.00000 + i 0.00000
+# a[25] = -1.40601 + i 1.49754
+# a[26] = -1.61991 + i 0.91761
+# a[27] = 0.40189 + i 1.72130
+# a[28] = 4.82843 + i -6.82843
+# a[29] = 5.14699 + i 5.56932
+# a[30] = -13.13707 + i -4.61313
+# a[31] = -9.87413 + i 5.52866
+# Compile of final_fft.sv was successful with warnings.
+# Compile of cosin_tab.sv was successful.
+# Compile of arr_test(4).sv was successful.
+# Compile of arr_test(5).sv was successful.
+# Compile of fft2.sv was successful.
+# Compile of fixp.sv was successful.
+# Compile of fptest.sv was successful.
+# Compile of fptest2.sv was successful.
+# Compile of CORsine.sv was successful.
+# Compile of CORD.sv was successful.
+# Compile of func_fft.sv was successful with warnings.
+# Compile of func_cord.sv was successful with warnings.
+# Compile of final_fft.sv was successful with warnings.
+# 12 compiles, 0 failed with no errors.
+# Compile of final_fft.sv was successful with warnings.
+vsim work.final_fft
+# End time: 11:36:21 on May 22,2024, Elapsed time: 0:01:23
+# Errors: 0, Warnings: 4
+# vsim work.final_fft 
+# Start time: 11:36:21 on May 22,2024
+# Loading sv_std.std
+# Loading work.final_fft
+run
+# degree     sin_x       diff
+# -90 -1.00000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -75 -0.96592583 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -60 -0.86602540 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -45 -0.70710678 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -30 -0.50000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -15 -0.25881904 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 0 -0.00000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 15 0.25881904 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 30 0.50000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 45 0.70710678 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 60 0.86602540 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 75 0.96592583 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 90 1.00000000 (-0.00000000) 
+# 
+# Printing the FFT of input Array...
+# 
+# a[0] = -2.00000 + i 0.00000
+# a[1] = -9.87413 + i -5.52866
+# a[2] = -13.13707 + i 4.61313
+# a[3] = 8.32307 + i -3.71780
+# a[4] = 4.82843 + i 6.82843
+# a[5] = 0.63548 + i -2.26674
+# a[6] = -0.82857 + i 1.80773
+# a[7] = 0.65488 + i 1.53828
+# a[8] = -2.00000 + i 0.00000
+# a[9] = 3.81021 + i 0.96251
+# a[10] = -0.97049 + i 3.15419
+# a[11] = 2.45236 + i 0.33165
+# a[12] = -1.94064 + i -3.31346
+# a[13] = 2.88137 + i -1.10909
+# a[14] = -6.83286 + i 2.87211
+# a[15] = -6.88459 + i 4.23443
+# a[16] = -2.00000 + i 0.00000
+# a[17] = 1.81945 + i -2.52602
+# a[18] = -0.51978 + i -0.61313
+# a[19] = 0.18682 + i 0.65859
+# a[20] = -0.82843 + i 1.17157
+# a[21] = 0.55330 + i 2.50980
+# a[22] = -2.54424 + i -2.55363
+# a[23] = 0.69784 + i 2.22605
+# a[24] = -2.00000 + i 0.00000
+# a[25] = -1.41239 + i 1.43531
+# a[26] = -1.37266 + i 0.84581
+# a[27] = -3.08097 + i 1.35448
+# a[28] = 5.94064 + i -4.68654
+# a[29] = 1.58671 + i 6.52288
+# a[30] = -5.79433 + i -10.12621
+# a[31] = -2.34940 + i -6.62567
+# Compile of final_fft.sv was successful with warnings.
+vsim work.final_fft
+# End time: 11:38:46 on May 22,2024, Elapsed time: 0:02:25
+# Errors: 0, Warnings: 2
+# vsim work.final_fft 
+# Start time: 11:38:46 on May 22,2024
+# Loading sv_std.std
+# Loading work.final_fft
+run
+# degree     sin_x       diff
+# -90 -1.00000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -75 -0.96592583 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -60 -0.86602540 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -45 -0.70710678 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -30 -0.50000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -15 -0.25881904 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 0 -0.00000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 15 0.25881904 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 30 0.50000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 45 0.70710678 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 60 0.86602540 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 75 0.96592583 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 90 1.00000000 (-0.00000000) 
+# 
+# Printing the FFT of input Array...
+# 
+# a[0] = -2.00000 + i 0.00000
+# a[1] = -3.93580 + i 2.88425
+# a[2] = -4.87302 + i 5.48614
+# a[3] = 5.48581 + i -2.82532
+# a[4] = 4.82843 + i 4.00000
+# a[5] = -2.94290 + i -1.60110
+# a[6] = -0.29086 + i 3.90586
+# a[7] = -2.93080 + i 3.00711
+# a[8] = -2.00000 + i 0.00000
+# a[9] = 0.19600 + i 0.11850
+# a[10] = -4.52474 + i 2.83473
+# a[11] = 3.17861 + i 6.66686
+# a[12] = -1.94064 + i -6.14188
+# a[13] = 5.51752 + i -0.96029
+# a[14] = -11.58104 + i -2.50236
+# a[15] = -7.26938 + i -7.98030
+# a[16] = -2.00000 + i 0.00000
+# a[17] = -0.42336 + i -1.80186
+# a[18] = -5.95541 + i 1.34228
+# a[19] = 4.12919 + i 1.32652
+# a[20] = -0.82843 + i 4.00000
+# a[21] = 2.42762 + i -2.02954
+# a[22] = -5.91038 + i -1.82334
+# a[23] = -2.14362 + i 0.13092
+# a[24] = -2.00000 + i 0.00000
+# a[25] = -1.49369 + i -1.20089
+# a[26] = -0.64684 + i -1.66316
+# a[27] = -4.91233 + i -0.88430
+# a[28] = 5.94064 + i -1.85812
+# a[29] = 0.65462 + i 4.59093
+# a[30] = 1.78228 + i -7.58017
+# a[31] = 4.46252 + i 0.55850
+# Compile of final_fft.sv was successful with warnings.
+vsim work.final_fft
+# End time: 11:40:07 on May 22,2024, Elapsed time: 0:01:21
+# Errors: 0, Warnings: 2
+# vsim work.final_fft 
+# Start time: 11:40:07 on May 22,2024
+# Loading sv_std.std
+# Loading work.final_fft
+run
+# degree     sin_x       diff
+# -90 -1.00000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -75 -0.96592583 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -60 -0.86602540 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -45 -0.70710678 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -30 -0.50000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -15 -0.25881905 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 0 0.00000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 15 0.25881905 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 30 0.50000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 45 0.70710678 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 60 0.86602540 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 75 0.96592583 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 90 1.00000000 (-0.00000000) 
+# 
+# Printing the FFT of input Array...
+# 
+# a[0] = -2.00000 + i 0.00000
+# a[1] = -9.87413 + i -5.52866
+# a[2] = -13.13707 + i 4.61313
+# a[3] = 8.32307 + i -3.71780
+# a[4] = 4.82843 + i 6.82843
+# a[5] = 0.63548 + i -2.26674
+# a[6] = -0.82857 + i 1.80773
+# a[7] = 0.65488 + i 1.53828
+# a[8] = -2.00000 + i 0.00000
+# a[9] = 3.81021 + i 0.96251
+# a[10] = -0.97049 + i 3.15419
+# a[11] = 2.45236 + i 0.33165
+# a[12] = -1.94064 + i -3.31346
+# a[13] = 2.88137 + i -1.10909
+# a[14] = -6.83286 + i 2.87211
+# a[15] = -6.88459 + i 4.23443
+# a[16] = -2.00000 + i 0.00000
+# a[17] = 1.81945 + i -2.52602
+# a[18] = -0.51978 + i -0.61313
+# a[19] = 0.18682 + i 0.65859
+# a[20] = -0.82843 + i 1.17157
+# a[21] = 0.55330 + i 2.50980
+# a[22] = -2.54424 + i -2.55363
+# a[23] = 0.69784 + i 2.22605
+# a[24] = -2.00000 + i 0.00000
+# a[25] = -1.41239 + i 1.43531
+# a[26] = -1.37266 + i 0.84581
+# a[27] = -3.08097 + i 1.35448
+# a[28] = 5.94064 + i -4.68654
+# a[29] = 1.58671 + i 6.52288
+# a[30] = -5.79433 + i -10.12621
+# a[31] = -2.34940 + i -6.62567
+# Compile of final_fft.sv was successful with warnings.
+vsim work.final_fft
+# End time: 11:41:33 on May 22,2024, Elapsed time: 0:01:26
+# Errors: 0, Warnings: 2
+# vsim work.final_fft 
+# Start time: 11:41:33 on May 22,2024
+# Loading sv_std.std
+# Loading work.final_fft
+run
+# degree     sin_x       diff
+# -90 -1.00000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -75 -0.96592583 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -60 -0.86602540 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -45 -0.70710678 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -30 -0.50000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -15 -0.25881904 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 0 -0.00000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 15 0.25881904 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 30 0.50000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 45 0.70710678 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 60 0.86602540 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 75 0.96592583 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 90 1.00000000 (-0.00000000) 
+# 
+# Printing the FFT of input Array...
+# 
+# a[0] = -2.00000 + i 0.00000
+# a[1] = -9.87413 + i -5.52866
+# a[2] = -13.13707 + i 4.61313
+# a[3] = 8.32307 + i -3.71780
+# a[4] = 4.82843 + i 6.82843
+# a[5] = 0.63548 + i -2.26674
+# a[6] = -0.82857 + i 1.80773
+# a[7] = 0.65488 + i 1.53828
+# a[8] = -2.00000 + i 0.00000
+# a[9] = 3.81021 + i 0.96251
+# a[10] = -0.97049 + i 3.15419
+# a[11] = 2.45236 + i 0.33165
+# a[12] = -1.94064 + i -3.31346
+# a[13] = 2.88137 + i -1.10909
+# a[14] = -6.83286 + i 2.87211
+# a[15] = -6.88459 + i 4.23443
+# a[16] = -2.00000 + i 0.00000
+# a[17] = 1.81945 + i -2.52602
+# a[18] = -0.51978 + i -0.61313
+# a[19] = 0.18682 + i 0.65859
+# a[20] = -0.82843 + i 1.17157
+# a[21] = 0.55330 + i 2.50980
+# a[22] = -2.54424 + i -2.55363
+# a[23] = 0.69784 + i 2.22605
+# a[24] = -2.00000 + i 0.00000
+# a[25] = -1.41239 + i 1.43531
+# a[26] = -1.37266 + i 0.84581
+# a[27] = -3.08097 + i 1.35448
+# a[28] = 5.94064 + i -4.68654
+# a[29] = 1.58671 + i 6.52288
+# a[30] = -5.79433 + i -10.12621
+# a[31] = -2.34940 + i -6.62567
+# Compile of func_cord.sv failed with 1 errors.
+# Compile of func_cord.sv was successful with warnings.
+vsim work.func_CORD
+# End time: 11:43:29 on May 22,2024, Elapsed time: 0:01:56
+# Errors: 0, Warnings: 3
+# vsim work.func_CORD 
+# Start time: 11:43:29 on May 22,2024
+# Loading sv_std.std
+# Loading work.func_CORD
+run
+# degree     sin_x       diff
+# 2 -0.38268343 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 3 -0.55557023 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 4 -0.70710678 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 5 -0.83146961 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 6 -0.92387953 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 7 -0.98078528 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 8 -1.00000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 9 -0.98516040 (-0.00437512) 
+# 
+# degree     sin_x       diff
+# 10 -0.98516040 (-0.06128087) 
+# 
+# degree     sin_x       diff
+# 11 -0.98516040 (-0.15369079) 
+# 
+# degree     sin_x       diff
+# 12 -0.98516040 (-0.27805362) 
+# 
+# degree     sin_x       diff
+# 13 -0.98516040 (-0.42959016) 
+# 
+# degree     sin_x       diff
+# 14 -0.98516040 (-0.60247697) 
+# 
+# degree     sin_x       diff
+# 15 -0.98516040 (-0.79007008) 
+# 
+# Compile of func_cord.sv was successful with warnings.
+vsim work.func_CORD
+# End time: 11:44:12 on May 22,2024, Elapsed time: 0:00:43
+# Errors: 0, Warnings: 2
+# vsim work.func_CORD 
+# Start time: 11:44:12 on May 22,2024
+# Loading sv_std.std
+# Loading work.func_CORD
+run
+# degree     sin_x       diff
+# 2 -0.38265886 (0.00002457) 
+# 
+# degree     sin_x       diff
+# 3 -0.55555838 (0.00001186) 
+# 
+# degree     sin_x       diff
+# 4 -0.70711776 (-0.00001098) 
+# 
+# degree     sin_x       diff
+# 5 -0.83147753 (-0.00000792) 
+# 
+# degree     sin_x       diff
+# 6 -0.92388971 (-0.00001018) 
+# 
+# degree     sin_x       diff
+# 7 -0.98078633 (-0.00000105) 
+# 
+# degree     sin_x       diff
+# 8 -1.00000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 9 -0.98516563 (-0.00438035) 
+# 
+# degree     sin_x       diff
+# 10 -0.98516563 (-0.06128610) 
+# 
+# degree     sin_x       diff
+# 11 -0.98516563 (-0.15369602) 
+# 
+# degree     sin_x       diff
+# 12 -0.98516563 (-0.27805885) 
+# 
+# degree     sin_x       diff
+# 13 -0.98516563 (-0.42959540) 
+# 
+# degree     sin_x       diff
+# 14 -0.98516563 (-0.60248220) 
+# 
+# degree     sin_x       diff
+# 15 -0.98516563 (-0.79007531) 
+# 
+# Compile of func_cord.sv was successful with warnings.
+vsim work.final_fft
+# End time: 11:44:40 on May 22,2024, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 2
+# vsim work.final_fft 
+# Start time: 11:44:40 on May 22,2024
+# Loading sv_std.std
+# Loading work.final_fft
+run
+# degree     sin_x       diff
+# -90 -1.00000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -75 -0.96592583 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -60 -0.86602540 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -45 -0.70710678 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -30 -0.50000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -15 -0.25881904 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 0 -0.00000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 15 0.25881904 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 30 0.50000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 45 0.70710678 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 60 0.86602540 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 75 0.96592583 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 90 1.00000000 (-0.00000000) 
+# 
+# Printing the FFT of input Array...
+# 
+# a[0] = -2.00000 + i 0.00000
+# a[1] = -9.87413 + i -5.52866
+# a[2] = -13.13707 + i 4.61313
+# a[3] = 8.32307 + i -3.71780
+# a[4] = 4.82843 + i 6.82843
+# a[5] = 0.63548 + i -2.26674
+# a[6] = -0.82857 + i 1.80773
+# a[7] = 0.65488 + i 1.53828
+# a[8] = -2.00000 + i 0.00000
+# a[9] = 3.81021 + i 0.96251
+# a[10] = -0.97049 + i 3.15419
+# a[11] = 2.45236 + i 0.33165
+# a[12] = -1.94064 + i -3.31346
+# a[13] = 2.88137 + i -1.10909
+# a[14] = -6.83286 + i 2.87211
+# a[15] = -6.88459 + i 4.23443
+# a[16] = -2.00000 + i 0.00000
+# a[17] = 1.81945 + i -2.52602
+# a[18] = -0.51978 + i -0.61313
+# a[19] = 0.18682 + i 0.65859
+# a[20] = -0.82843 + i 1.17157
+# a[21] = 0.55330 + i 2.50980
+# a[22] = -2.54424 + i -2.55363
+# a[23] = 0.69784 + i 2.22605
+# a[24] = -2.00000 + i 0.00000
+# a[25] = -1.41239 + i 1.43531
+# a[26] = -1.37266 + i 0.84581
+# a[27] = -3.08097 + i 1.35448
+# a[28] = 5.94064 + i -4.68654
+# a[29] = 1.58671 + i 6.52288
+# a[30] = -5.79433 + i -10.12621
+# a[31] = -2.34940 + i -6.62567
+vsim work.func_CORD
+# End time: 11:45:03 on May 22,2024, Elapsed time: 0:00:23
+# Errors: 0, Warnings: 1
+# vsim work.func_CORD 
+# Start time: 11:45:03 on May 22,2024
+# Loading sv_std.std
+# Loading work.func_CORD
+run
+# degree     sin_x       diff
+# 2 -0.38268343 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 3 -0.55557023 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 4 -0.70710678 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 5 -0.83146961 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 6 -0.92387953 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 7 -0.98078528 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 8 -1.00000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 9 -0.98516040 (-0.00437512) 
+# 
+# degree     sin_x       diff
+# 10 -0.98516040 (-0.06128087) 
+# 
+# degree     sin_x       diff
+# 11 -0.98516040 (-0.15369079) 
+# 
+# degree     sin_x       diff
+# 12 -0.98516040 (-0.27805362) 
+# 
+# degree     sin_x       diff
+# 13 -0.98516040 (-0.42959016) 
+# 
+# degree     sin_x       diff
+# 14 -0.98516040 (-0.60247697) 
+# 
+# degree     sin_x       diff
+# 15 -0.98516040 (-0.79007008) 
+# 
+# Compile of cosin_tab.sv was successful.
+# Load canceled
+vsim work.Cosin
+# End time: 12:08:58 on May 22,2024, Elapsed time: 0:23:55
+# Errors: 0, Warnings: 2
+# vsim work.Cosin 
+# Start time: 12:08:58 on May 22,2024
+# Loading sv_std.std
+# Loading work.Cosin
+# ** Error: (vsim-3043) Unresolved reference to 'result'.
+#    Time: 0 ps  Iteration: 0  Instance: /Cosin File: /home/yaswanth/Desktop/navicL1/myworks/verilog/cosin_tab.sv Line: 374
+# Error loading design
+# End time: 12:08:58 on May 22,2024, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 1
+# Compile of cosin_tab.sv was successful.
+# Compile of cosin_tab.sv was successful.
+# Compile of arr_test(4).sv was successful.
+# Compile of arr_test(5).sv was successful.
+# Compile of fft2.sv was successful.
+# Compile of fixp.sv was successful.
+# Compile of fptest.sv was successful.
+# Compile of fptest2.sv was successful.
+# Compile of CORsine.sv was successful.
+# Compile of CORD.sv was successful.
+# Compile of func_fft.sv was successful with warnings.
+# Compile of func_cord.sv was successful with warnings.
+# Compile of final_fft.sv was successful with warnings.
+# 12 compiles, 0 failed with no errors.
+vsim work.Cosin
+# vsim work.Cosin 
+# Start time: 12:09:21 on May 22,2024
+# Loading sv_std.std
+# Loading work.Cosin
+run
+# angle=0.241577
+# Index = 39
+# Index = 39
+# Indexr = 39.372372
+# x = 0.372372
+# x2,y2 = 40, 0.242950 
+# x1,y1 = 39, 0.237000 
+# y = 0.239227
+# sin(0.241577) = 0.237
+#   0.438972
+# Compile of final_fft.sv was successful with warnings.
+vsim work.final_fft
+# End time: 12:13:49 on May 22,2024, Elapsed time: 0:04:28
+# Errors: 0, Warnings: 4
+# vsim work.final_fft 
+# Start time: 12:13:49 on May 22,2024
+# Loading sv_std.std
+# Loading work.final_fft
+run
+# degree     sin_x       diff
+# -90 -1.00000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -75 -0.96592583 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -60 -0.86602540 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -45 -0.70710678 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -30 -0.50000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -15 -0.25881905 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 0 0.00000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 15 0.25881905 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 30 0.50000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 45 0.70710678 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 60 0.86602540 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 75 0.96592583 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 90 1.00000000 (-0.00000000) 
+# 
+# Printing the FFT of input Array...
+# 
+# a[0] = -2.00000 + i 0.00000
+# a[1] = -9.87413 + i -5.52866
+# a[2] = -13.13707 + i 4.61313
+# a[3] = 8.32307 + i -3.71780
+# a[4] = 4.82843 + i 6.82843
+# a[5] = 0.63548 + i -2.26674
+# a[6] = -0.82857 + i 1.80773
+# a[7] = 0.65488 + i 1.53828
+# a[8] = -2.00000 + i 0.00000
+# a[9] = 3.81021 + i 0.96251
+# a[10] = -0.97049 + i 3.15419
+# a[11] = 2.45236 + i 0.33165
+# a[12] = -1.94064 + i -3.31346
+# a[13] = 2.88137 + i -1.10909
+# a[14] = -6.83286 + i 2.87211
+# a[15] = -6.88459 + i 4.23443
+# a[16] = -2.00000 + i 0.00000
+# a[17] = 1.81945 + i -2.52602
+# a[18] = -0.51978 + i -0.61313
+# a[19] = 0.18682 + i 0.65859
+# a[20] = -0.82843 + i 1.17157
+# a[21] = 0.55330 + i 2.50980
+# a[22] = -2.54424 + i -2.55363
+# a[23] = 0.69784 + i 2.22605
+# a[24] = -2.00000 + i 0.00000
+# a[25] = -1.41239 + i 1.43531
+# a[26] = -1.37266 + i 0.84581
+# a[27] = -3.08097 + i 1.35448
+# a[28] = 5.94064 + i -4.68654
+# a[29] = 1.58671 + i 6.52288
+# a[30] = -5.79433 + i -10.12621
+# a[31] = -2.34940 + i -6.62567
+# Compile of func_cord.sv was successful with warnings.
+vsim work.func_CORD
+# End time: 12:15:16 on May 22,2024, Elapsed time: 0:01:27
+# Errors: 0, Warnings: 2
+# vsim work.func_CORD 
+# Start time: 12:15:16 on May 22,2024
+# Loading sv_std.std
+# Loading work.func_CORD
+run
+# degree     sin_x       diff
+# 2 -0.38268343 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 3 -0.55557023 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 4 -0.70710678 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 5 -0.83146961 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 6 -0.92387953 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 7 -0.98078528 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 8 -1.00000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 9 -0.98516040 (-0.00437512) 
+# 
+# degree     sin_x       diff
+# 10 -0.98516040 (-0.06128087) 
+# 
+# degree     sin_x       diff
+# 11 -0.98516040 (-0.15369079) 
+# 
+# degree     sin_x       diff
+# 12 -0.98516040 (-0.27805362) 
+# 
+# degree     sin_x       diff
+# 13 -0.98516040 (-0.42959016) 
+# 
+# degree     sin_x       diff
+# 14 -0.98516040 (-0.60247697) 
+# 
+# degree     sin_x       diff
+# 15 -0.98516040 (-0.79007008) 
+# 
+# Compile of func_cord.sv was successful with warnings.
+vsim work.func_CORD
+# End time: 12:15:44 on May 22,2024, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 2
+# vsim work.func_CORD 
+# Start time: 12:15:44 on May 22,2024
+# Loading sv_std.std
+# Loading work.func_CORD
+run
+# degree     sin_x       diff
+# 2 -0.38268343 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 3 -0.55557023 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 4 -0.70710678 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 5 -0.83146961 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 6 -0.92387953 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 7 -0.98078528 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 8 -1.00000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 9 -0.98516040 (-0.00437512) 
+# 
+# degree     sin_x       diff
+# 10 -0.98516040 (-0.06128087) 
+# 
+# degree     sin_x       diff
+# 11 -0.98516040 (-0.15369079) 
+# 
+# degree     sin_x       diff
+# 12 -0.98516040 (-0.27805362) 
+# 
+# degree     sin_x       diff
+# 13 -0.98516040 (-0.42959016) 
+# 
+# degree     sin_x       diff
+# 14 -0.98516040 (-0.60247697) 
+# 
+# degree     sin_x       diff
+# 15 -0.98516040 (-0.79007008) 
+# 
+# Compile of func_cord.sv was successful with warnings.
+vsim work.func_CORD
+# End time: 12:16:38 on May 22,2024, Elapsed time: 0:00:54
+# Errors: 0, Warnings: 2
+# vsim work.func_CORD 
+# Start time: 12:16:38 on May 22,2024
+# Loading sv_std.std
+# Loading work.func_CORD
+run
+# degree     sin_x       diff
+# 2 -0.38268343 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 3 -0.55557023 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 4 -0.70710678 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 5 -0.83146961 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 6 -0.92387953 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 7 -0.98078528 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 8 -1.00000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 9 -0.98516040 (-0.00437512) 
+# 
+# degree     sin_x       diff
+# 10 -0.98516040 (-0.06128087) 
+# 
+# degree     sin_x       diff
+# 11 -0.98516040 (-0.15369079) 
+# 
+# degree     sin_x       diff
+# 12 -0.98516040 (-0.27805362) 
+# 
+# degree     sin_x       diff
+# 13 -0.98516040 (-0.42959016) 
+# 
+# degree     sin_x       diff
+# 14 -0.98516040 (-0.60247697) 
+# 
+# degree     sin_x       diff
+# 15 -0.98516040 (-0.79007008) 
+# 
+# Compile of func_cord.sv was successful with warnings.
+vsim work.func_CORD
+# End time: 12:18:11 on May 22,2024, Elapsed time: 0:01:33
+# Errors: 0, Warnings: 2
+# vsim work.func_CORD 
+# Start time: 12:18:11 on May 22,2024
+# Loading sv_std.std
+# Loading work.func_CORD
+run
+# degree     sin_x       diff
+# -90 -1.00000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -75 -0.96592583 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -60 -0.86602540 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -45 -0.70710678 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# -30 -0.50000000 (0.00000000) 
+# 
+# degree     sin_x       diff
+# -15 -0.25881904 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 0 -0.00000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 15 0.25881904 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 30 0.50000000 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 45 0.70710678 (-0.00000000) 
+# 
+# degree     sin_x       diff
+# 60 0.86602540 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 75 0.96592583 (0.00000000) 
+# 
+# degree     sin_x       diff
+# 90 1.00000000 (-0.00000000) 
+# 
+# Compile of func_cord.sv was successful with warnings.
+vsim work.func_CORD
+# End time: 12:20:01 on May 22,2024, Elapsed time: 0:01:50
+# Errors: 0, Warnings: 2
+# vsim work.func_CORD 
+# Start time: 12:20:01 on May 22,2024
+# Loading sv_std.std
+# Loading work.func_CORD
+run
+# degree     sin_x       diff
+# -90 -1.00000000 (0.0000000000000001) 
+# 
+# degree     sin_x       diff
+# -75 -0.96592583 (-0.0000000000860132) 
+# 
+# degree     sin_x       diff
+# -60 -0.86602540 (-0.0000000000266405) 
+# 
+# degree     sin_x       diff
+# -45 -0.70710678 (-0.0000000000682491) 
+# 
+# degree     sin_x       diff
+# -30 -0.50000000 (0.0000000000461426) 
+# 
+# degree     sin_x       diff
+# -15 -0.25881904 (0.0000000003210054) 
+# 
+# degree     sin_x       diff
+# 0 -0.00000000 (-0.0000000001295765) 
+# 
+# degree     sin_x       diff
+# 15 0.25881904 (-0.0000000003210054) 
+# 
+# degree     sin_x       diff
+# 30 0.50000000 (-0.0000000000461426) 
+# 
+# degree     sin_x       diff
+# 45 0.70710678 (-0.0000000000682485) 
+# 
+# degree     sin_x       diff
+# 60 0.86602540 (0.0000000000266405) 
+# 
+# degree     sin_x       diff
+# 75 0.96592583 (0.0000000000860132) 
+# 
+# degree     sin_x       diff
+# 90 1.00000000 (-0.0000000000000001) 
+# 
+# Compile of func_cord.sv was successful with warnings.
+vsim work.func_CORD
+# End time: 12:20:18 on May 22,2024, Elapsed time: 0:00:17
+# Errors: 0, Warnings: 2
+# vsim work.func_CORD 
+# Start time: 12:20:18 on May 22,2024
+# Loading sv_std.std
+# Loading work.func_CORD
+run
+# degree     sin_x       diff
+# -90 -1.00000000 (0.0000000000000001) 
+# 
+# degree     sin_x       diff
+# -75 -0.96592583 (0.0000000000000002) 
+# 
+# degree     sin_x       diff
+# -60 -0.86602540 (0.0000000000000006) 
+# 
+# degree     sin_x       diff
+# -45 -0.70710678 (0.0000000000000000) 
+# 
+# degree     sin_x       diff
+# -30 -0.50000000 (-0.0000000000000002) 
+# 
+# degree     sin_x       diff
+# -15 -0.25881905 (-0.0000000000000002) 
+# 
+# degree     sin_x       diff
+# 0 0.00000000 (0.0000000000000000) 
+# 
+# degree     sin_x       diff
+# 15 0.25881905 (0.0000000000000002) 
+# 
+# degree     sin_x       diff
+# 30 0.50000000 (0.0000000000000001) 
+# 
+# degree     sin_x       diff
+# 45 0.70710678 (0.0000000000000006) 
+# 
+# degree     sin_x       diff
+# 60 0.86602540 (-0.0000000000000006) 
+# 
+# degree     sin_x       diff
+# 75 0.96592583 (-0.0000000000000002) 
+# 
+# degree     sin_x       diff
+# 90 1.00000000 (-0.0000000000000001) 
+# 
+run -over
+# Nothing left to do.
+run -over
+# Nothing left to do.
+run -over
+# Nothing left to do.
+# Compile of func_cord.sv was successful with warnings.
+vsim work.func_CORD
+# End time: 12:21:26 on May 22,2024, Elapsed time: 0:01:08
+# Errors: 0, Warnings: 2
+# vsim work.func_CORD 
+# Start time: 12:21:26 on May 22,2024
+# Loading sv_std.std
+# Loading work.func_CORD
+run
+# degree     sin_x       diff
+# 2 -0.38268343 (-0.0000000000000001) 
+# 
+# degree     sin_x       diff
+# 3 -0.55557023 (-0.0000000000000003) 
+# 
+# degree     sin_x       diff
+# 4 -0.70710678 (0.0000000000000000) 
+# 
+# degree     sin_x       diff
+# 5 -0.83146961 (-0.0000000000000004) 
+# 
+# degree     sin_x       diff
+# 6 -0.92387953 (-0.0000000000000008) 
+# 
+# degree     sin_x       diff
+# 7 -0.98078528 (-0.0000000000000007) 
+# 
+# degree     sin_x       diff
+# 8 -1.00000000 (0.0000000000000001) 
+# 
+# degree     sin_x       diff
+# 9 -0.98516040 (-0.0043751171263460) 
+# 
+# degree     sin_x       diff
+# 10 -0.98516040 (-0.0612808650182897) 
+# 
+# degree     sin_x       diff
+# 11 -0.98516040 (-0.1536907852270309) 
+# 
+# degree     sin_x       diff
+# 12 -0.98516040 (-0.2780536163430288) 
+# 
+# degree     sin_x       diff
+# 13 -0.98516040 (-0.4295901645099742) 
+# 
+# degree     sin_x       diff
+# 14 -0.98516040 (-0.6024769651644866) 
+# 
+# degree     sin_x       diff
+# 15 -0.98516040 (-0.7900700755134478) 
+# 
+# Compile of func_cord.sv was successful with warnings.
+vsim work.func_CORD
+# End time: 12:22:27 on May 22,2024, Elapsed time: 0:01:01
+# Errors: 0, Warnings: 2
+# vsim work.func_CORD 
+# Start time: 12:22:27 on May 22,2024
+# Loading sv_std.std
+# Loading work.func_CORD
+run
+# degree     sin_x       diff
+# 2 -0.38268343 (-0.0000000000000001) 
+# 
+# degree     sin_x       diff
+# 3 -0.55557023 (-0.0000000000000003) 
+# 
+# degree     sin_x       diff
+# 4 -0.70710678 (0.0000000000000000) 
+# 
+# degree     sin_x       diff
+# 5 -0.83146961 (-0.0000000000000004) 
+# 
+# degree     sin_x       diff
+# 6 -0.92387953 (-0.0000000000000008) 
+# 
+# degree     sin_x       diff
+# 7 -0.98078528 (-0.0000000000000007) 
+# 
+# degree     sin_x       diff
+# 8 -1.00000000 (0.0000000000000001) 
+# 
+# degree     sin_x       diff
+# 9 -0.98516040 (-0.0043751171263460) 
+# 
+# degree     sin_x       diff
+# 10 -0.98516040 (-0.0612808650182897) 
+# 
+# degree     sin_x       diff
+# 11 -0.98516040 (-0.1536907852270309) 
+# 
+# degree     sin_x       diff
+# 12 -0.98516040 (-0.2780536163430288) 
+# 
+# degree     sin_x       diff
+# 13 -0.98516040 (-0.4295901645099742) 
+# 
+# degree     sin_x       diff
+# 14 -0.98516040 (-0.6024769651644866) 
+# 
+# degree     sin_x       diff
+# 15 -0.98516040 (-0.7900700755134478) 
+# 
+# End time: 16:57:01 on May 22,2024, Elapsed time: 4:34:34
+# Errors: 0, Warnings: 1

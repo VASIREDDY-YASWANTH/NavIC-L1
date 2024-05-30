@@ -1,0 +1,36 @@
+/home/yaswanth/Desktop/navicL1/myworks/verilog/fptest2.sv {1 {vlog -work nav -sv -stats=none /home/yaswanth/Desktop/navicL1/myworks/verilog/fptest2.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testing2
+
+Top level modules:
+	testing2
+
+} {} {}} /home/yaswanth/Desktop/navicL1/myworks/verilog/arr_test(4).sv {1 {vlog -work nav -sv -stats=none /home/yaswanth/Desktop/navicL1/myworks/verilog/arr_test(4).sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module arr
+
+Top level modules:
+	arr
+
+} {} {}} /home/yaswanth/Desktop/navicL1/myworks/verilog/arr_test(5).sv {1 {vlog -work nav -sv -stats=none /home/yaswanth/Desktop/navicL1/myworks/verilog/arr_test(5).sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module arr
+
+Top level modules:
+	arr
+
+} {} {}} /home/yaswanth/Desktop/navicL1/myworks/verilog/fptest.sv {1 {vlog -work nav -sv -stats=none /home/yaswanth/Desktop/navicL1/myworks/verilog/fptest.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module testing
+
+Top level modules:
+	testing
+
+} {} {}} /home/yaswanth/Desktop/navicL1/myworks/verilog/cosin_tab.sv {1 {vlog -work nav -sv -stats=none /home/yaswanth/Desktop/navicL1/myworks/verilog/cosin_tab.sv
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Cosin
+
+Top level modules:
+	Cosin
+
+} {} {}}
